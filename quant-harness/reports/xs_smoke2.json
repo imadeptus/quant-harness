@@ -1,0 +1,114 @@
+{
+  "spec": "0001",
+  "generated_at_utc": "2026-07-19T06:32:35.127699+00:00",
+  "elapsed_sec": 0.4,
+  "interval": "4h",
+  "start": "2024-07",
+  "n_months": 24,
+  "pool_size": 8,
+  "delisted_share": null,
+  "top_k": 16,
+  "skip_top": 0,
+  "min_median_qv": null,
+  "slippage": 0.0002,
+  "universe_size_mean": 7.63,
+  "member_bars_funding_zero_share": 0.5,
+  "families": [
+    {
+      "cv": "cpcv",
+      "n_configs_tried": 24,
+      "n_splits": 45,
+      "n_paths": 9,
+      "ann_factor": 2190.0,
+      "oos_bars": 4000,
+      "approx_oos_trades": 428,
+      "oos_sharpe_annualized": 0.579,
+      "path_sharpes_annualized": [
+        0.76,
+        1.068,
+        1.068,
+        0.413,
+        1.068,
+        0.579,
+        0.41,
+        0.434,
+        0.389
+      ],
+      "worst_path_sharpe_annualized": 0.389,
+      "oos_max_drawdown": 0.378,
+      "psr_vs_zero": 0.7827,
+      "deflated_sharpe_ratio": 0.2096,
+      "trial_sharpe_variance": 0.00016127120170266718,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "family": "xs_momentum",
+        "lookback": 42,
+        "quantile": 0.25,
+        "rebalance": 42,
+        "skip": 0
+      },
+      "family": "xs_momentum",
+      "pbo": 0.1825
+    },
+    {
+      "cv": "cpcv",
+      "n_configs_tried": 12,
+      "n_splits": 45,
+      "n_paths": 9,
+      "ann_factor": 2190.0,
+      "oos_bars": 4000,
+      "approx_oos_trades": 709,
+      "oos_sharpe_annualized": 0.41,
+      "path_sharpes_annualized": [
+        0.56,
+        -0.005,
+        0.237,
+        0.41,
+        0.41,
+        -0.078,
+        1.031,
+        0.41,
+        -0.078
+      ],
+      "worst_path_sharpe_annualized": -0.078,
+      "oos_max_drawdown": 0.235,
+      "psr_vs_zero": 0.7104,
+      "deflated_sharpe_ratio": 0.1411,
+      "trial_sharpe_variance": 0.00023973765864110637,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "family": "xs_carry",
+        "quantile": 0.25,
+        "rebalance": 42,
+        "window": 18
+      },
+      "family": "xs_carry",
+      "pbo": 0.2302,
+      "warning": "funding \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u043d\u0430 50% member-\u0431\u0430\u0440\u043e\u0432 \u2014 carry-\u0432\u0435\u0440\u0434\u0438\u043a\u0442\u0443 \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c \u0441 \u043e\u0433\u043e\u0432\u043e\u0440\u043a\u043e\u0439"
+    }
+  ]
+}

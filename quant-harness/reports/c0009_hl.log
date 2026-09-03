@@ -1,0 +1,5 @@
+[warn] HL GRAM: AttributeError
+[warn] HL CASHCAT: AttributeError
+[data] hyperliquid: 230 монет, 912 баров
+[done] hyperliquid: verdict=KILL OOS_Sharpe(med)=-0.557 worst=-1.009 DSR=0.038 PBO=0.7897 events~2024 | warnings=[]
+=== CASCADE hyperliquid DONE in 3.4s. reports/cascade0009_hyperliquid.md ===

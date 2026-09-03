@@ -1,0 +1,30 @@
+{
+  "n_configs_tried": 50,
+  "n_folds": 16,
+  "ann_factor": 8760.0,
+  "oos_bars": 4800,
+  "approx_oos_trades": 544,
+  "oos_sharpe_annualized": 0.42,
+  "oos_max_drawdown": 0.351,
+  "psr_vs_zero": 0.6224,
+  "deflated_sharpe_ratio": 0.0003,
+  "thresholds": {
+    "min_trades": 200,
+    "min_oos_sharpe": 0.7,
+    "max_drawdown": 0.2,
+    "min_dsr": 0.95
+  },
+  "checks": {
+    "trades_ok": true,
+    "oos_sharpe_ok": false,
+    "drawdown_ok": false,
+    "dsr_ok": false
+  },
+  "verdict": "KILL",
+  "most_common_pick": {
+    "allow_short": false,
+    "family": "momentum",
+    "lookback": 12,
+    "threshold": 0.04
+  }
+}

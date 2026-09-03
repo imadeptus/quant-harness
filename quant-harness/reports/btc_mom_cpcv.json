@@ -1,0 +1,45 @@
+{
+  "cv": "cpcv",
+  "n_configs_tried": 84,
+  "n_splits": 45,
+  "n_paths": 9,
+  "ann_factor": 8760.0,
+  "oos_bars": 17520,
+  "approx_oos_trades": 501,
+  "oos_sharpe_annualized": -0.334,
+  "path_sharpes_annualized": [
+    -0.356,
+    0.011,
+    -0.956,
+    -0.325,
+    -0.334,
+    0.479,
+    -0.014,
+    -0.86,
+    -0.415
+  ],
+  "worst_path_sharpe_annualized": -0.956,
+  "oos_max_drawdown": 0.488,
+  "psr_vs_zero": 0.3185,
+  "deflated_sharpe_ratio": 0.0,
+  "trial_sharpe_variance": 0.0002418258318927364,
+  "thresholds": {
+    "min_trades": 200,
+    "min_oos_sharpe": 0.7,
+    "max_drawdown": 0.2,
+    "min_dsr": 0.95
+  },
+  "checks": {
+    "trades_ok": true,
+    "oos_sharpe_ok": false,
+    "drawdown_ok": false,
+    "dsr_ok": false
+  },
+  "verdict": "KILL",
+  "most_common_pick": {
+    "allow_short": false,
+    "family": "momentum",
+    "lookback": 336,
+    "threshold": 0.005
+  }
+}

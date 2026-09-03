@@ -1,0 +1,107 @@
+{
+  "spec": "0004",
+  "generated_at_utc": "2026-07-20T07:24:04.174708+00:00",
+  "elapsed_sec": 393.7,
+  "pool_size": 30,
+  "listing_events": 17,
+  "funding_coverage": 0.913,
+  "start": "2024-01",
+  "n_months": 30,
+  "costs": {
+    "taker": 0.0005,
+    "slip_young": 0.01,
+    "slip_mature": 0.002
+  },
+  "families": [
+    {
+      "cv": "cpcv",
+      "n_configs_tried": 6,
+      "n_splits": 45,
+      "n_paths": 9,
+      "ann_factor": 365.0,
+      "oos_bars": 912,
+      "approx_oos_trades": 677,
+      "oos_sharpe_annualized": -0.367,
+      "path_sharpes_annualized": [
+        -0.367,
+        -0.367,
+        0.094,
+        0.094,
+        -0.367,
+        -0.02,
+        -0.402,
+        -0.43,
+        -0.359
+      ],
+      "worst_path_sharpe_annualized": -0.43,
+      "oos_max_drawdown": 0.902,
+      "psr_vs_zero": 0.2915,
+      "deflated_sharpe_ratio": 0.1015,
+      "trial_sharpe_variance": 0.0003799679591362594,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "e_start": 3,
+        "h": 7
+      },
+      "family": "listing_drift",
+      "pbo": 0.5159
+    },
+    {
+      "cv": "cpcv",
+      "n_configs_tried": 6,
+      "n_splits": 45,
+      "n_paths": 9,
+      "ann_factor": 365.0,
+      "oos_bars": 912,
+      "approx_oos_trades": 585,
+      "oos_sharpe_annualized": 0.218,
+      "path_sharpes_annualized": [
+        0.218,
+        0.218,
+        0.017,
+        0.017,
+        -0.098,
+        0.218,
+        0.218,
+        0.266,
+        0.226
+      ],
+      "worst_path_sharpe_annualized": -0.098,
+      "oos_max_drawdown": 0.975,
+      "psr_vs_zero": 0.6305,
+      "deflated_sharpe_ratio": 0.3422,
+      "trial_sharpe_variance": 0.00038005774455788605,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "e_start": 1,
+        "h": 14
+      },
+      "family": "listing_reversal",
+      "pbo": 0.3611
+    }
+  ]
+}

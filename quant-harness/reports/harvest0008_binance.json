@@ -1,0 +1,41 @@
+{
+  "spec": "0008",
+  "venue": "binance",
+  "generated_at_utc": "2026-07-22T09:22:40.296293+00:00",
+  "elapsed_sec": 5360.0,
+  "theta": 0.0002,
+  "costs": {
+    "taker": 0.0005,
+    "slip": 0.0002
+  },
+  "annualized_yield": 0.0076,
+  "sharpe_illusory": 0.67,
+  "max_drawdown_from_data": -0.0507,
+  "avg_positions": 18.2,
+  "avg_turnover": 0.2165,
+  "stress": {
+    "basis_1pct": {
+      "gap": 0.01,
+      "stress_loss": 0.01,
+      "days_of_yield_lost": 478.74,
+      "months_of_yield_lost": 15.96
+    },
+    "basis_3pct": {
+      "gap": 0.03,
+      "stress_loss": 0.03,
+      "days_of_yield_lost": 1436.21,
+      "months_of_yield_lost": 47.87
+    },
+    "basis_5pct": {
+      "gap": 0.05,
+      "stress_loss": 0.05,
+      "days_of_yield_lost": 2393.69,
+      "months_of_yield_lost": 79.79
+    }
+  },
+  "funding_flip_30d": {
+    "flip_rate": -0.0002,
+    "days": 30,
+    "flip_loss": -0.006
+  }
+}

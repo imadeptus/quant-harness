@@ -1,0 +1,543 @@
+{
+  "generated_at_utc": "2026-07-17T20:23:53.127171Z",
+  "elapsed_sec": 122.5,
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "BNBUSDT"
+  ],
+  "families": [
+    "momentum",
+    "mean_reversion",
+    "breakout",
+    "carry"
+  ],
+  "period_months": 24,
+  "start": "2024-07",
+  "n_cells": 16,
+  "n_pass": 0,
+  "ranked": [
+    {
+      "n_configs_tried": 15,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 396,
+      "oos_sharpe_annualized": 0.849,
+      "oos_max_drawdown": 0.588,
+      "psr_vs_zero": 0.8667,
+      "deflated_sharpe_ratio": 0.0005,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": true,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "family": "carry",
+        "hold": 3,
+        "threshold": 0.0
+      },
+      "pbo": 0.5516,
+      "symbol": "ETHUSDT",
+      "family": "carry"
+    },
+    {
+      "n_configs_tried": 15,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 94,
+      "oos_sharpe_annualized": 0.188,
+      "oos_max_drawdown": 0.364,
+      "psr_vs_zero": 0.5972,
+      "deflated_sharpe_ratio": 0.0005,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": false,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "family": "carry",
+        "hold": 1,
+        "threshold": 0.0
+      },
+      "pbo": 0.3016,
+      "symbol": "BNBUSDT",
+      "family": "carry"
+    },
+    {
+      "n_configs_tried": 84,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 585,
+      "oos_sharpe_annualized": 0.497,
+      "oos_max_drawdown": 0.387,
+      "psr_vs_zero": 0.7426,
+      "deflated_sharpe_ratio": 0.0004,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": false,
+        "family": "momentum",
+        "lookback": 48,
+        "threshold": 0.04
+      },
+      "pbo": 0.2183,
+      "symbol": "ETHUSDT",
+      "family": "momentum"
+    },
+    {
+      "n_configs_tried": 84,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 871,
+      "oos_sharpe_annualized": -0.526,
+      "oos_max_drawdown": 0.681,
+      "psr_vs_zero": 0.2453,
+      "deflated_sharpe_ratio": 0.0004,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": true,
+        "family": "momentum",
+        "lookback": 336,
+        "threshold": 0.04
+      },
+      "pbo": 0.3333,
+      "symbol": "SOLUSDT",
+      "family": "momentum"
+    },
+    {
+      "n_configs_tried": 15,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 370,
+      "oos_sharpe_annualized": 0.2,
+      "oos_max_drawdown": 0.308,
+      "psr_vs_zero": 0.6035,
+      "deflated_sharpe_ratio": 0.0003,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "family": "carry",
+        "hold": 1,
+        "threshold": 0.0001
+      },
+      "pbo": 0.4286,
+      "symbol": "BTCUSDT",
+      "family": "carry"
+    },
+    {
+      "n_configs_tried": 15,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 240,
+      "oos_sharpe_annualized": -0.888,
+      "oos_max_drawdown": 0.628,
+      "psr_vs_zero": 0.1228,
+      "deflated_sharpe_ratio": 0.0002,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "family": "carry",
+        "hold": 6,
+        "threshold": 0.0002
+      },
+      "pbo": 0.254,
+      "symbol": "SOLUSDT",
+      "family": "carry"
+    },
+    {
+      "n_configs_tried": 84,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 539,
+      "oos_sharpe_annualized": -0.408,
+      "oos_max_drawdown": 0.435,
+      "psr_vs_zero": 0.2968,
+      "deflated_sharpe_ratio": 0.0001,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": true,
+        "family": "momentum",
+        "lookback": 336,
+        "threshold": 0.0025
+      },
+      "pbo": 0.0595,
+      "symbol": "BTCUSDT",
+      "family": "momentum"
+    },
+    {
+      "n_configs_tried": 50,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 256,
+      "oos_sharpe_annualized": -0.448,
+      "oos_max_drawdown": 0.239,
+      "psr_vs_zero": 0.2779,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": false,
+        "entry_z": 3.0,
+        "family": "mean_reversion",
+        "lookback": 96
+      },
+      "pbo": 0.0675,
+      "symbol": "BTCUSDT",
+      "family": "mean_reversion"
+    },
+    {
+      "n_configs_tried": 50,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 236,
+      "oos_sharpe_annualized": -0.465,
+      "oos_max_drawdown": 0.248,
+      "psr_vs_zero": 0.2702,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": false,
+        "entry_z": 3.0,
+        "family": "mean_reversion",
+        "lookback": 96
+      },
+      "pbo": 0.0794,
+      "symbol": "SOLUSDT",
+      "family": "mean_reversion"
+    },
+    {
+      "n_configs_tried": 84,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 622,
+      "oos_sharpe_annualized": -0.778,
+      "oos_max_drawdown": 0.455,
+      "psr_vs_zero": 0.1546,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": false,
+        "family": "momentum",
+        "lookback": 12,
+        "threshold": 0.04
+      },
+      "pbo": 0.3333,
+      "symbol": "BNBUSDT",
+      "family": "momentum"
+    },
+    {
+      "n_configs_tried": 50,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 467,
+      "oos_sharpe_annualized": -0.814,
+      "oos_max_drawdown": 0.41,
+      "psr_vs_zero": 0.1411,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": false,
+        "entry_z": 3.0,
+        "family": "mean_reversion",
+        "lookback": 96
+      },
+      "pbo": 0.0754,
+      "symbol": "ETHUSDT",
+      "family": "mean_reversion"
+    },
+    {
+      "n_configs_tried": 12,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 969,
+      "oos_sharpe_annualized": -0.814,
+      "oos_max_drawdown": 0.319,
+      "psr_vs_zero": 0.1506,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": false,
+        "family": "breakout",
+        "lookback": 168
+      },
+      "pbo": 0.0794,
+      "symbol": "ETHUSDT",
+      "family": "breakout"
+    },
+    {
+      "n_configs_tried": 50,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 371,
+      "oos_sharpe_annualized": -1.243,
+      "oos_max_drawdown": 0.372,
+      "psr_vs_zero": 0.0452,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": false,
+        "entry_z": 3.0,
+        "family": "mean_reversion",
+        "lookback": 12
+      },
+      "pbo": 0.0833,
+      "symbol": "BNBUSDT",
+      "family": "mean_reversion"
+    },
+    {
+      "n_configs_tried": 12,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 764,
+      "oos_sharpe_annualized": -1.622,
+      "oos_max_drawdown": 0.425,
+      "psr_vs_zero": 0.02,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": true,
+        "family": "breakout",
+        "lookback": 336
+      },
+      "pbo": 0.0317,
+      "symbol": "BNBUSDT",
+      "family": "breakout"
+    },
+    {
+      "n_configs_tried": 12,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 724,
+      "oos_sharpe_annualized": -2.018,
+      "oos_max_drawdown": 0.381,
+      "psr_vs_zero": 0.0049,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": true,
+        "family": "breakout",
+        "lookback": 336
+      },
+      "pbo": 0.004,
+      "symbol": "BTCUSDT",
+      "family": "breakout"
+    },
+    {
+      "n_configs_tried": 12,
+      "n_folds": 30,
+      "ann_factor": 8760.0,
+      "oos_bars": 15000,
+      "approx_oos_trades": 1129,
+      "oos_sharpe_annualized": -3.612,
+      "oos_max_drawdown": 0.781,
+      "psr_vs_zero": 0.0,
+      "deflated_sharpe_ratio": 0.0,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "allow_short": false,
+        "family": "breakout",
+        "lookback": 336
+      },
+      "pbo": 0.5079,
+      "symbol": "SOLUSDT",
+      "family": "breakout"
+    }
+  ],
+  "errors": []
+}

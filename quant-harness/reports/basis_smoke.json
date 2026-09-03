@@ -1,0 +1,71 @@
+{
+  "spec": "0003",
+  "generated_at_utc": "2026-07-19T15:44:44.978248+00:00",
+  "elapsed_sec": 357.8,
+  "candidates": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BANKUSDT",
+    "ESPORTSUSDT",
+    "SOLUSDT"
+  ],
+  "top_k": 20,
+  "start": "2024-01",
+  "n_months": 30,
+  "universe_size_mean": 3.53,
+  "funding_coverage": {
+    "binance": 1.0,
+    "bybit": 0.973
+  },
+  "coverage_valid": true,
+  "known_biases": [
+    "\u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u044b = \u0442\u0435\u043a\u0443\u0449\u0438\u0435 \u043b\u0438\u0441\u0442\u0438\u043d\u0433\u0438 \u043e\u0431\u0435\u0438\u0445 \u0431\u0438\u0440\u0436 (\u043b\u0438\u043a\u0432\u0438\u0434\u043d\u044b\u0439 \u0441\u0435\u0433\u043c\u0435\u043d\u0442)"
+  ],
+  "result": {
+    "cv": "cpcv",
+    "n_configs_tried": 18,
+    "n_splits": 45,
+    "n_paths": 9,
+    "ann_factor": 365.0,
+    "oos_bars": 912,
+    "approx_oos_trades": 344,
+    "oos_sharpe_annualized": -0.125,
+    "path_sharpes_annualized": [
+      -0.125,
+      -0.125,
+      0.448,
+      -0.125,
+      -0.125,
+      -0.125,
+      0.448,
+      0.448,
+      -0.259
+    ],
+    "worst_path_sharpe_annualized": -0.259,
+    "oos_max_drawdown": 0.094,
+    "psr_vs_zero": 0.4239,
+    "deflated_sharpe_ratio": 0.0002,
+    "trial_sharpe_variance": 0.0037698205053988453,
+    "thresholds": {
+      "min_trades": 200,
+      "min_oos_sharpe": 0.7,
+      "max_drawdown": 0.2,
+      "min_dsr": 0.95
+    },
+    "checks": {
+      "trades_ok": true,
+      "oos_sharpe_ok": false,
+      "drawdown_ok": true,
+      "dsr_ok": false
+    },
+    "verdict": "KILL",
+    "most_common_pick": {
+      "family": "funding_basis",
+      "rebalance": 7,
+      "theta": 0.0001,
+      "window": 7
+    },
+    "family": "funding_basis",
+    "pbo": 0.004
+  }
+}

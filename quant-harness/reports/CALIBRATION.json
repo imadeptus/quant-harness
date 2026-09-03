@@ -1,0 +1,784 @@
+{
+  "meta": {
+    "n_seeds": 200,
+    "n_bars": 912,
+    "vol": 0.01,
+    "cpcv": {
+      "n_groups": 10,
+      "k_test": 2,
+      "purge": 1,
+      "embargo": 5
+    },
+    "thresholds": {
+      "min_trades": 200,
+      "min_oos_sharpe": 0.7,
+      "max_drawdown": 0.2,
+      "min_dsr": 0.95
+    },
+    "with_pbo": true
+  },
+  "studies": {
+    "null": [
+      {
+        "label": "null",
+        "params": {
+          "n_configs": 1,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.03,
+        "dsr_pass_rate": 0.035,
+        "median_dsr": 0.5077,
+        "median_oos_sharpe_ann": 0.0125,
+        "median_mdd": 0.3025
+      },
+      {
+        "label": "null",
+        "params": {
+          "n_configs": 6,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.0696,
+        "median_oos_sharpe_ann": -0.035,
+        "median_mdd": 0.306,
+        "median_pbo": 0.4861
+      },
+      {
+        "label": "null",
+        "params": {
+          "n_configs": 20,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.0157,
+        "median_oos_sharpe_ann": -0.05,
+        "median_mdd": 0.292,
+        "median_pbo": 0.4643
+      },
+      {
+        "label": "null",
+        "params": {
+          "n_configs": 50,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.0044,
+        "median_oos_sharpe_ann": -0.054,
+        "median_mdd": 0.304,
+        "median_pbo": 0.4702
+      }
+    ],
+    "power": [
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 0.0,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.076,
+        "median_oos_sharpe_ann": -0.0325,
+        "median_mdd": 0.289,
+        "median_pbo": 0.4861
+      },
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 0.5,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.015,
+        "dsr_pass_rate": 0.015,
+        "median_dsr": 0.1826,
+        "median_oos_sharpe_ann": 0.3355,
+        "median_mdd": 0.259,
+        "median_pbo": 0.5556
+      },
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 1.0,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.085,
+        "dsr_pass_rate": 0.095,
+        "median_dsr": 0.4647,
+        "median_oos_sharpe_ann": 0.7925,
+        "median_mdd": 0.2025,
+        "median_pbo": 0.5516
+      },
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 1.5,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.305,
+        "dsr_pass_rate": 0.305,
+        "median_dsr": 0.7781,
+        "median_oos_sharpe_ann": 1.3815,
+        "median_mdd": 0.161,
+        "median_pbo": 0.5
+      },
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 2.0,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.455,
+        "dsr_pass_rate": 0.47,
+        "median_dsr": 0.9425,
+        "median_oos_sharpe_ann": 1.8765,
+        "median_mdd": 0.146,
+        "median_pbo": 0.4861
+      },
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 2.5,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.805,
+        "dsr_pass_rate": 0.815,
+        "median_dsr": 0.9938,
+        "median_oos_sharpe_ann": 2.5195,
+        "median_mdd": 0.1245,
+        "median_pbo": 0.4861
+      },
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 3.0,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.965,
+        "dsr_pass_rate": 0.965,
+        "median_dsr": 0.9996,
+        "median_oos_sharpe_ann": 2.965,
+        "median_mdd": 0.115,
+        "median_pbo": 0.5238
+      },
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 3.5,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.995,
+        "dsr_pass_rate": 1.0,
+        "median_dsr": 1.0,
+        "median_oos_sharpe_ann": 3.3615,
+        "median_mdd": 0.1105,
+        "median_pbo": 0.4901
+      },
+      {
+        "label": "power",
+        "params": {
+          "true_ann_sharpe": 4.0,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 1.0,
+        "dsr_pass_rate": 1.0,
+        "median_dsr": 1.0,
+        "median_oos_sharpe_ann": 3.9365,
+        "median_mdd": 0.1,
+        "median_pbo": 0.4921
+      }
+    ],
+    "cost": [
+      {
+        "label": "cost",
+        "params": {
+          "gross_ann_sharpe": 3.0,
+          "cost_per_trade": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.945,
+        "dsr_pass_rate": 0.955,
+        "median_dsr": 0.9994,
+        "median_oos_sharpe_ann": 2.967,
+        "median_mdd": 0.115,
+        "median_pbo": 0.4821
+      },
+      {
+        "label": "cost",
+        "params": {
+          "gross_ann_sharpe": 3.0,
+          "cost_per_trade": 0.0005
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.82,
+        "dsr_pass_rate": 0.84,
+        "median_dsr": 0.9958,
+        "median_oos_sharpe_ann": 2.5685,
+        "median_mdd": 0.1285,
+        "median_pbo": 0.5198
+      },
+      {
+        "label": "cost",
+        "params": {
+          "gross_ann_sharpe": 3.0,
+          "cost_per_trade": 0.001
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.67,
+        "dsr_pass_rate": 0.685,
+        "median_dsr": 0.9822,
+        "median_oos_sharpe_ann": 2.212,
+        "median_mdd": 0.1365,
+        "median_pbo": 0.5
+      },
+      {
+        "label": "cost",
+        "params": {
+          "gross_ann_sharpe": 3.0,
+          "cost_per_trade": 0.002
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.355,
+        "dsr_pass_rate": 0.37,
+        "median_dsr": 0.8841,
+        "median_oos_sharpe_ann": 1.616,
+        "median_mdd": 0.1565,
+        "median_pbo": 0.506
+      },
+      {
+        "label": "cost",
+        "params": {
+          "gross_ann_sharpe": 3.0,
+          "cost_per_trade": 0.004
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.015,
+        "dsr_pass_rate": 0.015,
+        "median_dsr": 0.1828,
+        "median_oos_sharpe_ann": 0.336,
+        "median_mdd": 0.24,
+        "median_pbo": 0.5079
+      },
+      {
+        "label": "cost",
+        "params": {
+          "gross_ann_sharpe": 3.0,
+          "cost_per_trade": 0.008
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.0,
+        "median_oos_sharpe_ann": -2.112,
+        "median_mdd": 0.694,
+        "median_pbo": 0.5278
+      }
+    ],
+    "multiplicity": [
+      {
+        "label": "multiplicity",
+        "params": {
+          "true_ann_sharpe": 2.0,
+          "n_configs": 1
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.825,
+        "dsr_pass_rate": 0.93,
+        "median_dsr": 0.9991,
+        "median_oos_sharpe_ann": 1.988,
+        "median_mdd": 0.145
+      },
+      {
+        "label": "multiplicity",
+        "params": {
+          "true_ann_sharpe": 2.0,
+          "n_configs": 6
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.5,
+        "dsr_pass_rate": 0.525,
+        "median_dsr": 0.9575,
+        "median_oos_sharpe_ann": 2.0475,
+        "median_mdd": 0.146,
+        "median_pbo": 0.4722
+      },
+      {
+        "label": "multiplicity",
+        "params": {
+          "true_ann_sharpe": 2.0,
+          "n_configs": 20
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.285,
+        "dsr_pass_rate": 0.285,
+        "median_dsr": 0.8096,
+        "median_oos_sharpe_ann": 1.898,
+        "median_mdd": 0.15,
+        "median_pbo": 0.496
+      },
+      {
+        "label": "multiplicity",
+        "params": {
+          "true_ann_sharpe": 2.0,
+          "n_configs": 50
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.165,
+        "dsr_pass_rate": 0.165,
+        "median_dsr": 0.6112,
+        "median_oos_sharpe_ann": 1.7965,
+        "median_mdd": 0.15,
+        "median_pbo": 0.5278
+      },
+      {
+        "label": "multiplicity",
+        "params": {
+          "true_ann_sharpe": 2.0,
+          "n_configs": 100
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.155,
+        "dsr_pass_rate": 0.155,
+        "median_dsr": 0.5099,
+        "median_oos_sharpe_ann": 1.8285,
+        "median_mdd": 0.149,
+        "median_pbo": 0.5
+      }
+    ],
+    "fat_tails": [
+      {
+        "label": "fat_tails_null",
+        "params": {
+          "df": 3.0,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.0733,
+        "median_oos_sharpe_ann": -0.0935,
+        "median_mdd": 0.3045,
+        "median_pbo": 0.5218
+      },
+      {
+        "label": "fat_tails_null",
+        "params": {
+          "df": 5.0,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.0705,
+        "median_oos_sharpe_ann": -0.0485,
+        "median_mdd": 0.2995,
+        "median_pbo": 0.4643
+      },
+      {
+        "label": "fat_tails_null",
+        "params": {
+          "df": 10.0,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.035,
+        "median_oos_sharpe_ann": -0.2295,
+        "median_mdd": 0.335,
+        "median_pbo": 0.5357
+      },
+      {
+        "label": "fat_tails_edge",
+        "params": {
+          "df": 3.0,
+          "true_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.865,
+        "dsr_pass_rate": 0.905,
+        "median_dsr": 0.9981,
+        "median_oos_sharpe_ann": 2.9215,
+        "median_mdd": 0.1175,
+        "median_pbo": 0.5377
+      },
+      {
+        "label": "fat_tails_edge",
+        "params": {
+          "df": 5.0,
+          "true_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.91,
+        "dsr_pass_rate": 0.93,
+        "median_dsr": 0.9991,
+        "median_oos_sharpe_ann": 2.8245,
+        "median_mdd": 0.1195,
+        "median_pbo": 0.5595
+      },
+      {
+        "label": "fat_tails_edge",
+        "params": {
+          "df": 10.0,
+          "true_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.9,
+        "dsr_pass_rate": 0.93,
+        "median_dsr": 0.9995,
+        "median_oos_sharpe_ann": 3.069,
+        "median_mdd": 0.116,
+        "median_pbo": 0.4802
+      }
+    ],
+    "autocorr": [
+      {
+        "label": "autocorr",
+        "params": {
+          "phi": 0.0,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.0447,
+        "median_oos_sharpe_ann": -0.1185,
+        "median_mdd": 0.3155,
+        "median_pbo": 0.5198
+      },
+      {
+        "label": "autocorr",
+        "params": {
+          "phi": 0.2,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.0345,
+        "median_oos_sharpe_ann": -0.138,
+        "median_mdd": 0.3435,
+        "median_pbo": 0.5258
+      },
+      {
+        "label": "autocorr",
+        "params": {
+          "phi": 0.4,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.005,
+        "dsr_pass_rate": 0.01,
+        "median_dsr": 0.0241,
+        "median_oos_sharpe_ann": 0.1305,
+        "median_mdd": 0.38,
+        "median_pbo": 0.4484
+      },
+      {
+        "label": "autocorr",
+        "params": {
+          "phi": 0.6,
+          "true_ann_sharpe": 0.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.01,
+        "median_dsr": 0.0005,
+        "median_oos_sharpe_ann": -0.148,
+        "median_mdd": 0.488,
+        "median_pbo": 0.4702
+      }
+    ],
+    "regime_shift": [
+      {
+        "label": "regime_shift",
+        "params": {
+          "active_frac": 1.0,
+          "active_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.91,
+        "dsr_pass_rate": 0.93,
+        "median_dsr": 0.9988,
+        "median_oos_sharpe_ann": 2.829,
+        "median_mdd": 0.121,
+        "median_pbo": 0.5417
+      },
+      {
+        "label": "regime_shift",
+        "params": {
+          "active_frac": 0.75,
+          "active_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.52,
+        "dsr_pass_rate": 0.6,
+        "median_dsr": 0.9752,
+        "median_oos_sharpe_ann": 2.1515,
+        "median_mdd": 0.1685,
+        "median_pbo": 0.5099
+      },
+      {
+        "label": "regime_shift",
+        "params": {
+          "active_frac": 0.5,
+          "active_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.26,
+        "dsr_pass_rate": 0.32,
+        "median_dsr": 0.8274,
+        "median_oos_sharpe_ann": 1.485,
+        "median_mdd": 0.204,
+        "median_pbo": 0.4583
+      },
+      {
+        "label": "regime_shift",
+        "params": {
+          "active_frac": 0.25,
+          "active_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.055,
+        "dsr_pass_rate": 0.06,
+        "median_dsr": 0.3542,
+        "median_oos_sharpe_ann": 0.7135,
+        "median_mdd": 0.267,
+        "median_pbo": 0.4643
+      }
+    ],
+    "sample_size": [
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 250,
+          "true_ann_sharpe": 1.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.0,
+        "dsr_pass_rate": 0.0,
+        "median_dsr": 0.2213,
+        "median_oos_sharpe_ann": 0.885,
+        "median_mdd": 0.1205
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 500,
+          "true_ann_sharpe": 1.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.09,
+        "dsr_pass_rate": 0.095,
+        "median_dsr": 0.405,
+        "median_oos_sharpe_ann": 1.0315,
+        "median_mdd": 0.162
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 912,
+          "true_ann_sharpe": 1.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.135,
+        "dsr_pass_rate": 0.14,
+        "median_dsr": 0.5331,
+        "median_oos_sharpe_ann": 0.9665,
+        "median_mdd": 0.185
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 1825,
+          "true_ann_sharpe": 1.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.19,
+        "dsr_pass_rate": 0.315,
+        "median_dsr": 0.8189,
+        "median_oos_sharpe_ann": 0.9985,
+        "median_mdd": 0.237
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 250,
+          "true_ann_sharpe": 2.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.095,
+        "dsr_pass_rate": 0.095,
+        "median_dsr": 0.515,
+        "median_oos_sharpe_ann": 1.7525,
+        "median_mdd": 0.098
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 500,
+          "true_ann_sharpe": 2.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.22,
+        "dsr_pass_rate": 0.22,
+        "median_dsr": 0.7539,
+        "median_oos_sharpe_ann": 1.83,
+        "median_mdd": 0.123
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 912,
+          "true_ann_sharpe": 2.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.5,
+        "dsr_pass_rate": 0.525,
+        "median_dsr": 0.9575,
+        "median_oos_sharpe_ann": 2.0475,
+        "median_mdd": 0.146
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 1825,
+          "true_ann_sharpe": 2.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.77,
+        "dsr_pass_rate": 0.93,
+        "median_dsr": 0.9988,
+        "median_oos_sharpe_ann": 2.04,
+        "median_mdd": 0.169
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 250,
+          "true_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.315,
+        "dsr_pass_rate": 0.32,
+        "median_dsr": 0.8306,
+        "median_oos_sharpe_ann": 3.007,
+        "median_mdd": 0.0815
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 500,
+          "true_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.595,
+        "dsr_pass_rate": 0.595,
+        "median_dsr": 0.9727,
+        "median_oos_sharpe_ann": 2.902,
+        "median_mdd": 0.1
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 912,
+          "true_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.945,
+        "dsr_pass_rate": 0.97,
+        "median_dsr": 0.9992,
+        "median_oos_sharpe_ann": 2.924,
+        "median_mdd": 0.119
+      },
+      {
+        "label": "sample_size",
+        "params": {
+          "n_bars": 1825,
+          "true_ann_sharpe": 3.0
+        },
+        "n_seeds": 200,
+        "n_valid": 200,
+        "pass_rate": 0.945,
+        "dsr_pass_rate": 1.0,
+        "median_dsr": 1.0,
+        "median_oos_sharpe_ann": 2.9355,
+        "median_mdd": 0.136
+      }
+    ]
+  },
+  "headline": {
+    "fpr_noise_N6": "0.0% PASS on pure noise (N=6 configs); median DSR 0.070",
+    "detection_threshold": "PASS>=50% at true ann Sharpe ~2.5; PASS>=90% at ~3.0",
+    "cost_breakeven": "a gross ann-Sharpe-3 edge holds PASS>=50% up to cost ~0.001/trade-bar",
+    "multiple_testing": "true ann Sharpe 2: PASS 82% at N=1 -> 16% at N=100 (DSR deflation working)",
+    "fat_tails": "heavy tails at zero edge: worst FPR 0.0% (df=3.0) \u2014 non-normality correction holds",
+    "autocorrelation": "AR(1) at zero edge: FPR 0.0% at phi=0 -> 0.0% at phi=0.6 \u2014 stays controlled",
+    "regime_shift": "edge active 100% -> PASS 91%; active 25% -> PASS 6% (judge does not extrapolate a dead edge)",
+    "sample_size": "true ann Sharpe 2: PASS 10% at 250 bars -> 77% at 1825 bars (more data = more power)"
+  }
+}

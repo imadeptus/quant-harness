@@ -1,0 +1,450 @@
+[pool] 41 перпов из S3-листинга (кэш)
+[ok] funding attached for BTCUSDT: 912 payments
+[warn] 0GUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 0GUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 0GUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 0GUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 0GUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 0GUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 0GUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 0GUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 0GUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-09.zip; месяц пропущен
+[warn] 0GUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-10.zip; месяц пропущен
+[warn] 0GUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-11.zip; месяц пропущен
+[warn] 0GUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2024-12.zip; месяц пропущен
+[warn] 0GUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2025-01.zip; месяц пропущен
+[warn] 0GUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2025-02.zip; месяц пропущен
+[warn] 0GUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2025-03.zip; месяц пропущен
+[warn] 0GUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2025-04.zip; месяц пропущен
+[warn] 0GUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2025-05.zip; месяц пропущен
+[warn] 0GUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2025-06.zip; месяц пропущен
+[warn] 0GUSDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2025-07.zip; месяц пропущен
+[warn] 0GUSDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/0GUSDT/1d/0GUSDT-1d-2025-08.zip; месяц пропущен
+[ok] funding attached for 0GUSDT: 287 payments
+[warn] 1000000BOBUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-09.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-10.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-11.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2024-12.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2025-01.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2025-02.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2025-03.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2025-04.zip; месяц пропущен
+[warn] 1000000BOBUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000BOBUSDT/1d/1000000BOBUSDT-1d-2025-05.zip; месяц пропущен
+[ok] funding attached for 1000000BOBUSDT: 391 payments
+[warn] 1000000MOGUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-09.zip; месяц пропущен
+[warn] 1000000MOGUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000000MOGUSDT/1d/1000000MOGUSDT-1d-2024-10.zip; месяц пропущен
+[ok] funding attached for 1000000MOGUSDT: 601 payments
+[ok] funding attached for 1000BONKUSDT: 912 payments
+[warn] 1000BTTCUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-09.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-10.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-11.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2024-12.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-01.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-02.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-03.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-04.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-05.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-06.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-07.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-08.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-09.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-10.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-11.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2025-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2025-12.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2026-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2026-01.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2026-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2026-02.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2026-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2026-03.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2026-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2026-04.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2026-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2026-05.zip; месяц пропущен
+[warn] 1000BTTCUSDT 2026-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000BTTCUSDT/1d/1000BTTCUSDT-1d-2026-06.zip; месяц пропущен
+[warn] 1000BTTCUSDT: данных нет вообще — исключён из панели
+[warn] 1000CATUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 1000CATUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 1000CATUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 1000CATUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 1000CATUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 1000CATUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 1000CATUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 1000CATUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 1000CATUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CATUSDT/1d/1000CATUSDT-1d-2024-09.zip; месяц пропущен
+[ok] funding attached for 1000CATUSDT: 618 payments
+[warn] 1000CHEEMSUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-09.zip; месяц пропущен
+[warn] 1000CHEEMSUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000CHEEMSUSDT/1d/1000CHEEMSUSDT-1d-2024-10.zip; месяц пропущен
+[ok] funding attached for 1000CHEEMSUSDT: 583 payments
+[ok] funding attached for 1000FLOKIUSDT: 912 payments
+[ok] funding attached for 1000LUNCUSDT: 912 payments
+[ok] funding attached for 1000PEPEUSDT: 912 payments
+[ok] funding attached for 1000RATSUSDT: 912 payments
+[ok] funding attached for 1000SATSUSDT: 912 payments
+[ok] funding attached for 1000SHIBUSDT: 912 payments
+[warn] 1000WHYUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-09.zip; месяц пропущен
+[warn] 1000WHYUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000WHYUSDT/1d/1000WHYUSDT-1d-2024-10.zip; месяц пропущен
+[ok] funding attached for 1000WHYUSDT: 478 payments
+[ok] funding attached for 1000XECUSDT: 912 payments
+[warn] 1000XUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 1000XUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 1000XUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 1000XUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 1000XUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 1000XUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 1000XUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 1000XUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 1000XUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-09.zip; месяц пропущен
+[warn] 1000XUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1000XUSDT/1d/1000XUSDT-1d-2024-10.zip; месяц пропущен
+[ok] funding attached for 1000XUSDT: 367 payments
+[ok] funding attached for 1INCHUSDT: 912 payments
+[warn] 1MBABYDOGEUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1MBABYDOGEUSDT/1d/1MBABYDOGEUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 1MBABYDOGEUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1MBABYDOGEUSDT/1d/1MBABYDOGEUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 1MBABYDOGEUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1MBABYDOGEUSDT/1d/1MBABYDOGEUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 1MBABYDOGEUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1MBABYDOGEUSDT/1d/1MBABYDOGEUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 1MBABYDOGEUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1MBABYDOGEUSDT/1d/1MBABYDOGEUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 1MBABYDOGEUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1MBABYDOGEUSDT/1d/1MBABYDOGEUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 1MBABYDOGEUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1MBABYDOGEUSDT/1d/1MBABYDOGEUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 1MBABYDOGEUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/1MBABYDOGEUSDT/1d/1MBABYDOGEUSDT-1d-2024-08.zip; месяц пропущен
+[ok] funding attached for 1MBABYDOGEUSDT: 653 payments
+[warn] 2ZUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-01.zip; месяц пропущен
+[warn] 2ZUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-02.zip; месяц пропущен
+[warn] 2ZUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-03.zip; месяц пропущен
+[warn] 2ZUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-04.zip; месяц пропущен
+[warn] 2ZUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-05.zip; месяц пропущен
+[warn] 2ZUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-06.zip; месяц пропущен
+[warn] 2ZUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-07.zip; месяц пропущен
+[warn] 2ZUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-08.zip; месяц пропущен
+[warn] 2ZUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-09.zip; месяц пропущен
+[warn] 2ZUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-10.zip; месяц пропущен
+[warn] 2ZUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-11.zip; месяц пропущен
+[warn] 2ZUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2024-12.zip; месяц пропущен
+[warn] 2ZUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-01.zip; месяц пропущен
+[warn] 2ZUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-02.zip; месяц пропущен
+[warn] 2ZUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-03.zip; месяц пропущен
+[warn] 2ZUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-04.zip; месяц пропущен
+[warn] 2ZUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-05.zip; месяц пропущен
+[warn] 2ZUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-06.zip; месяц пропущен
+[warn] 2ZUSDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-07.zip; месяц пропущен
+[warn] 2ZUSDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-08.zip; месяц пропущен
+[warn] 2ZUSDT 2025-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/2ZUSDT/1d/2ZUSDT-1d-2025-09.zip; месяц пропущен
+[ok] funding attached for 2ZUSDT: 272 payments
+[warn] 42USDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-01.zip; месяц пропущен
+[warn] 42USDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-02.zip; месяц пропущен
+[warn] 42USDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-03.zip; месяц пропущен
+[warn] 42USDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-04.zip; месяц пропущен
+[warn] 42USDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-05.zip; месяц пропущен
+[warn] 42USDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-06.zip; месяц пропущен
+[warn] 42USDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-07.zip; месяц пропущен
+[warn] 42USDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-08.zip; месяц пропущен
+[warn] 42USDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-09.zip; месяц пропущен
+[warn] 42USDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-10.zip; месяц пропущен
+[warn] 42USDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-11.zip; месяц пропущен
+[warn] 42USDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2024-12.zip; месяц пропущен
+[warn] 42USDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-01.zip; месяц пропущен
+[warn] 42USDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-02.zip; месяц пропущен
+[warn] 42USDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-03.zip; месяц пропущен
+[warn] 42USDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-04.zip; месяц пропущен
+[warn] 42USDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-05.zip; месяц пропущен
+[warn] 42USDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-06.zip; месяц пропущен
+[warn] 42USDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-07.zip; месяц пропущен
+[warn] 42USDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-08.zip; месяц пропущен
+[warn] 42USDT 2025-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/42USDT/1d/42USDT-1d-2025-09.zip; месяц пропущен
+[ok] funding attached for 42USDT: 96 payments
+[warn] 4USDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-01.zip; месяц пропущен
+[warn] 4USDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-02.zip; месяц пропущен
+[warn] 4USDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-03.zip; месяц пропущен
+[warn] 4USDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-04.zip; месяц пропущен
+[warn] 4USDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-05.zip; месяц пропущен
+[warn] 4USDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-06.zip; месяц пропущен
+[warn] 4USDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-07.zip; месяц пропущен
+[warn] 4USDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-08.zip; месяц пропущен
+[warn] 4USDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-09.zip; месяц пропущен
+[warn] 4USDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-10.zip; месяц пропущен
+[warn] 4USDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-11.zip; месяц пропущен
+[warn] 4USDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2024-12.zip; месяц пропущен
+[warn] 4USDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-01.zip; месяц пропущен
+[warn] 4USDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-02.zip; месяц пропущен
+[warn] 4USDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-03.zip; месяц пропущен
+[warn] 4USDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-04.zip; месяц пропущен
+[warn] 4USDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-05.zip; месяц пропущен
+[warn] 4USDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-06.zip; месяц пропущен
+[warn] 4USDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-07.zip; месяц пропущен
+[warn] 4USDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-08.zip; месяц пропущен
+[warn] 4USDT 2025-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/4USDT/1d/4USDT-1d-2025-09.zip; месяц пропущен
+[ok] funding attached for 4USDT: 266 payments
+[warn] A2ZUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-01.zip; месяц пропущен
+[warn] A2ZUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-02.zip; месяц пропущен
+[warn] A2ZUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-03.zip; месяц пропущен
+[warn] A2ZUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-04.zip; месяц пропущен
+[warn] A2ZUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-05.zip; месяц пропущен
+[warn] A2ZUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-06.zip; месяц пропущен
+[warn] A2ZUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-07.zip; месяц пропущен
+[warn] A2ZUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-08.zip; месяц пропущен
+[warn] A2ZUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-09.zip; месяц пропущен
+[warn] A2ZUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-10.zip; месяц пропущен
+[warn] A2ZUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-11.zip; месяц пропущен
+[warn] A2ZUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2024-12.zip; месяц пропущен
+[warn] A2ZUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2025-01.zip; месяц пропущен
+[warn] A2ZUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2025-02.zip; месяц пропущен
+[warn] A2ZUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2025-03.zip; месяц пропущен
+[warn] A2ZUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2025-04.zip; месяц пропущен
+[warn] A2ZUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2025-05.zip; месяц пропущен
+[warn] A2ZUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/A2ZUSDT/1d/A2ZUSDT-1d-2025-06.zip; месяц пропущен
+[ok] funding attached for A2ZUSDT: 238 payments
+[warn] AAOIUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-01.zip; месяц пропущен
+[warn] AAOIUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-02.zip; месяц пропущен
+[warn] AAOIUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-03.zip; месяц пропущен
+[warn] AAOIUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-04.zip; месяц пропущен
+[warn] AAOIUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-05.zip; месяц пропущен
+[warn] AAOIUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-06.zip; месяц пропущен
+[warn] AAOIUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-07.zip; месяц пропущен
+[warn] AAOIUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-08.zip; месяц пропущен
+[warn] AAOIUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-09.zip; месяц пропущен
+[warn] AAOIUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-10.zip; месяц пропущен
+[warn] AAOIUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-11.zip; месяц пропущен
+[warn] AAOIUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2024-12.zip; месяц пропущен
+[warn] AAOIUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-01.zip; месяц пропущен
+[warn] AAOIUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-02.zip; месяц пропущен
+[warn] AAOIUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-03.zip; месяц пропущен
+[warn] AAOIUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-04.zip; месяц пропущен
+[warn] AAOIUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-05.zip; месяц пропущен
+[warn] AAOIUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-06.zip; месяц пропущен
+[warn] AAOIUSDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-07.zip; месяц пропущен
+[warn] AAOIUSDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-08.zip; месяц пропущен
+[warn] AAOIUSDT 2025-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-09.zip; месяц пропущен
+[warn] AAOIUSDT 2025-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-10.zip; месяц пропущен
+[warn] AAOIUSDT 2025-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-11.zip; месяц пропущен
+[warn] AAOIUSDT 2025-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2025-12.zip; месяц пропущен
+[warn] AAOIUSDT 2026-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2026-01.zip; месяц пропущен
+[warn] AAOIUSDT 2026-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2026-02.zip; месяц пропущен
+[warn] AAOIUSDT 2026-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2026-03.zip; месяц пропущен
+[warn] AAOIUSDT 2026-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2026-04.zip; месяц пропущен
+[warn] AAOIUSDT 2026-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAOIUSDT/1d/AAOIUSDT-1d-2026-05.zip; месяц пропущен
+[ok] funding attached for AAOIUSDT: 18 payments
+[warn] AAPLUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-01.zip; месяц пропущен
+[warn] AAPLUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-02.zip; месяц пропущен
+[warn] AAPLUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-03.zip; месяц пропущен
+[warn] AAPLUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-04.zip; месяц пропущен
+[warn] AAPLUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-05.zip; месяц пропущен
+[warn] AAPLUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-06.zip; месяц пропущен
+[warn] AAPLUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-07.zip; месяц пропущен
+[warn] AAPLUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-08.zip; месяц пропущен
+[warn] AAPLUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-09.zip; месяц пропущен
+[warn] AAPLUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-10.zip; месяц пропущен
+[warn] AAPLUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-11.zip; месяц пропущен
+[warn] AAPLUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2024-12.zip; месяц пропущен
+[warn] AAPLUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-01.zip; месяц пропущен
+[warn] AAPLUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-02.zip; месяц пропущен
+[warn] AAPLUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-03.zip; месяц пропущен
+[warn] AAPLUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-04.zip; месяц пропущен
+[warn] AAPLUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-05.zip; месяц пропущен
+[warn] AAPLUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-06.zip; месяц пропущен
+[warn] AAPLUSDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-07.zip; месяц пропущен
+[warn] AAPLUSDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-08.zip; месяц пропущен
+[warn] AAPLUSDT 2025-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-09.zip; месяц пропущен
+[warn] AAPLUSDT 2025-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-10.zip; месяц пропущен
+[warn] AAPLUSDT 2025-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-11.zip; месяц пропущен
+[warn] AAPLUSDT 2025-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2025-12.zip; месяц пропущен
+[warn] AAPLUSDT 2026-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2026-01.zip; месяц пропущен
+[warn] AAPLUSDT 2026-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2026-02.zip; месяц пропущен
+[warn] AAPLUSDT 2026-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AAPLUSDT/1d/AAPLUSDT-1d-2026-03.zip; месяц пропущен
+[ok] funding attached for AAPLUSDT: 35 payments
+[ok] funding attached for AAVEUSDT: 912 payments
+[ok] funding attached for ACEUSDT: 912 payments
+[ok] funding attached for ACHUSDT: 912 payments
+[warn] ACTUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-01.zip; месяц пропущен
+[warn] ACTUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-02.zip; месяц пропущен
+[warn] ACTUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-03.zip; месяц пропущен
+[warn] ACTUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-04.zip; месяц пропущен
+[warn] ACTUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-05.zip; месяц пропущен
+[warn] ACTUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-06.zip; месяц пропущен
+[warn] ACTUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-07.zip; месяц пропущен
+[warn] ACTUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-08.zip; месяц пропущен
+[warn] ACTUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-09.zip; месяц пропущен
+[warn] ACTUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACTUSDT/1d/ACTUSDT-1d-2024-10.zip; месяц пропущен
+[ok] funding attached for ACTUSDT: 597 payments
+[warn] ACUUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-01.zip; месяц пропущен
+[warn] ACUUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-02.zip; месяц пропущен
+[warn] ACUUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-03.zip; месяц пропущен
+[warn] ACUUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-04.zip; месяц пропущен
+[warn] ACUUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-05.zip; месяц пропущен
+[warn] ACUUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-06.zip; месяц пропущен
+[warn] ACUUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-07.zip; месяц пропущен
+[warn] ACUUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-08.zip; месяц пропущен
+[warn] ACUUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-09.zip; месяц пропущен
+[warn] ACUUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-10.zip; месяц пропущен
+[warn] ACUUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-11.zip; месяц пропущен
+[warn] ACUUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2024-12.zip; месяц пропущен
+[warn] ACUUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-01.zip; месяц пропущен
+[warn] ACUUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-02.zip; месяц пропущен
+[warn] ACUUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-03.zip; месяц пропущен
+[warn] ACUUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-04.zip; месяц пропущен
+[warn] ACUUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-05.zip; месяц пропущен
+[warn] ACUUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-06.zip; месяц пропущен
+[warn] ACUUSDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-07.zip; месяц пропущен
+[warn] ACUUSDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-08.zip; месяц пропущен
+[warn] ACUUSDT 2025-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-09.zip; месяц пропущен
+[warn] ACUUSDT 2025-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-10.zip; месяц пропущен
+[warn] ACUUSDT 2025-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-11.zip; месяц пропущен
+[warn] ACUUSDT 2025-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACUUSDT/1d/ACUUSDT-1d-2025-12.zip; месяц пропущен
+[ok] funding attached for ACUUSDT: 161 payments
+[warn] ACXUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-01.zip; месяц пропущен
+[warn] ACXUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-02.zip; месяц пропущен
+[warn] ACXUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-03.zip; месяц пропущен
+[warn] ACXUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-04.zip; месяц пропущен
+[warn] ACXUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-05.zip; месяц пропущен
+[warn] ACXUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-06.zip; месяц пропущен
+[warn] ACXUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-07.zip; месяц пропущен
+[warn] ACXUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-08.zip; месяц пропущен
+[warn] ACXUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-09.zip; месяц пропущен
+[warn] ACXUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-10.zip; месяц пропущен
+[warn] ACXUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/1d/ACXUSDT-1d-2024-11.zip; месяц пропущен
+[ok] funding attached for ACXUSDT: 572 payments
+[ok] funding attached for ADAUSDT: 912 payments
+[warn] ADBEUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-01.zip; месяц пропущен
+[warn] ADBEUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-02.zip; месяц пропущен
+[warn] ADBEUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-03.zip; месяц пропущен
+[warn] ADBEUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-04.zip; месяц пропущен
+[warn] ADBEUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-05.zip; месяц пропущен
+[warn] ADBEUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-06.zip; месяц пропущен
+[warn] ADBEUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-07.zip; месяц пропущен
+[warn] ADBEUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-08.zip; месяц пропущен
+[warn] ADBEUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-09.zip; месяц пропущен
+[warn] ADBEUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-10.zip; месяц пропущен
+[warn] ADBEUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-11.zip; месяц пропущен
+[warn] ADBEUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2024-12.zip; месяц пропущен
+[warn] ADBEUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-01.zip; месяц пропущен
+[warn] ADBEUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-02.zip; месяц пропущен
+[warn] ADBEUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-03.zip; месяц пропущен
+[warn] ADBEUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-04.zip; месяц пропущен
+[warn] ADBEUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-05.zip; месяц пропущен
+[warn] ADBEUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-06.zip; месяц пропущен
+[warn] ADBEUSDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-07.zip; месяц пропущен
+[warn] ADBEUSDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-08.zip; месяц пропущен
+[warn] ADBEUSDT 2025-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-09.zip; месяц пропущен
+[warn] ADBEUSDT 2025-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-10.zip; месяц пропущен
+[warn] ADBEUSDT 2025-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-11.zip; месяц пропущен
+[warn] ADBEUSDT 2025-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2025-12.zip; месяц пропущен
+[warn] ADBEUSDT 2026-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2026-01.zip; месяц пропущен
+[warn] ADBEUSDT 2026-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2026-02.zip; месяц пропущен
+[warn] ADBEUSDT 2026-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2026-03.zip; месяц пропущен
+[warn] ADBEUSDT 2026-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2026-04.zip; месяц пропущен
+[warn] ADBEUSDT 2026-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/ADBEUSDT/1d/ADBEUSDT-1d-2026-05.zip; месяц пропущен
+[ok] funding attached for ADBEUSDT: 5 payments
+[warn] AERGOUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AERGOUSDT/1d/AERGOUSDT-1d-2024-01.zip; месяц пропущен
+[warn] AERGOUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AERGOUSDT/1d/AERGOUSDT-1d-2024-02.zip; месяц пропущен
+[warn] AERGOUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AERGOUSDT/1d/AERGOUSDT-1d-2024-03.zip; месяц пропущен
+[warn] AERGOUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AERGOUSDT/1d/AERGOUSDT-1d-2024-04.zip; месяц пропущен
+[warn] AERGOUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AERGOUSDT/1d/AERGOUSDT-1d-2024-05.zip; месяц пропущен
+[warn] AERGOUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AERGOUSDT/1d/AERGOUSDT-1d-2024-06.zip; месяц пропущен
+[warn] AERGOUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AERGOUSDT/1d/AERGOUSDT-1d-2024-07.zip; месяц пропущен
+[warn] AERGOUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AERGOUSDT/1d/AERGOUSDT-1d-2024-08.zip; месяц пропущен
+[ok] funding attached for AERGOUSDT: 659 payments
+[warn] AEROUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-01.zip; месяц пропущен
+[warn] AEROUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-02.zip; месяц пропущен
+[warn] AEROUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-03.zip; месяц пропущен
+[warn] AEROUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-04.zip; месяц пропущен
+[warn] AEROUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-05.zip; месяц пропущен
+[warn] AEROUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-06.zip; месяц пропущен
+[warn] AEROUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-07.zip; месяц пропущен
+[warn] AEROUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-08.zip; месяц пропущен
+[warn] AEROUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-09.zip; месяц пропущен
+[warn] AEROUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-10.zip; месяц пропущен
+[warn] AEROUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEROUSDT/1d/AEROUSDT-1d-2024-11.zip; месяц пропущен
+[ok] funding attached for AEROUSDT: 574 payments
+[warn] AEVOUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEVOUSDT/1d/AEVOUSDT-1d-2024-01.zip; месяц пропущен
+[warn] AEVOUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AEVOUSDT/1d/AEVOUSDT-1d-2024-02.zip; месяц пропущен
+[ok] funding attached for AEVOUSDT: 840 payments
+[ok] funding attached for AGIXUSDT: 536 payments
+[ok] funding attached for AGLDUSDT: 912 payments
+[warn] AGTUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-01.zip; месяц пропущен
+[warn] AGTUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-02.zip; месяц пропущен
+[warn] AGTUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-03.zip; месяц пропущен
+[warn] AGTUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-04.zip; месяц пропущен
+[warn] AGTUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-05.zip; месяц пропущен
+[warn] AGTUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-06.zip; месяц пропущен
+[warn] AGTUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-07.zip; месяц пропущен
+[warn] AGTUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-08.zip; месяц пропущен
+[warn] AGTUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-09.zip; месяц пропущен
+[warn] AGTUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-10.zip; месяц пропущен
+[warn] AGTUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-11.zip; месяц пропущен
+[warn] AGTUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2024-12.zip; месяц пропущен
+[warn] AGTUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2025-01.zip; месяц пропущен
+[warn] AGTUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2025-02.zip; месяц пропущен
+[warn] AGTUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2025-03.zip; месяц пропущен
+[warn] AGTUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AGTUSDT/1d/AGTUSDT-1d-2025-04.zip; месяц пропущен
+[ok] funding attached for AGTUSDT: 407 payments
+[warn] AI16ZUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-01.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-02.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-03.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-04.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-05.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-06.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-07.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-08.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-09.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-10.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-11.zip; месяц пропущен
+[warn] AI16ZUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AI16ZUSDT/1d/AI16ZUSDT-1d-2024-12.zip; месяц пропущен
+[ok] funding attached for AI16ZUSDT: 309 payments
+[warn] AIAUSDT 2024-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-01.zip; месяц пропущен
+[warn] AIAUSDT 2024-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-02.zip; месяц пропущен
+[warn] AIAUSDT 2024-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-03.zip; месяц пропущен
+[warn] AIAUSDT 2024-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-04.zip; месяц пропущен
+[warn] AIAUSDT 2024-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-05.zip; месяц пропущен
+[warn] AIAUSDT 2024-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-06.zip; месяц пропущен
+[warn] AIAUSDT 2024-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-07.zip; месяц пропущен
+[warn] AIAUSDT 2024-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-08.zip; месяц пропущен
+[warn] AIAUSDT 2024-09: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-09.zip; месяц пропущен
+[warn] AIAUSDT 2024-10: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-10.zip; месяц пропущен
+[warn] AIAUSDT 2024-11: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-11.zip; месяц пропущен
+[warn] AIAUSDT 2024-12: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2024-12.zip; месяц пропущен
+[warn] AIAUSDT 2025-01: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2025-01.zip; месяц пропущен
+[warn] AIAUSDT 2025-02: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2025-02.zip; месяц пропущен
+[warn] AIAUSDT 2025-03: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2025-03.zip; месяц пропущен
+[warn] AIAUSDT 2025-04: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2025-04.zip; месяц пропущен
+[warn] AIAUSDT 2025-05: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2025-05.zip; месяц пропущен
+[warn] AIAUSDT 2025-06: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2025-06.zip; месяц пропущен
+[warn] AIAUSDT 2025-07: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2025-07.zip; месяц пропущен
+[warn] AIAUSDT 2025-08: 404 Client Error: Not Found for url: https://data.binance.vision/data/futures/um/monthly/klines/AIAUSDT/1d/AIAUSDT-1d-2025-08.zip; месяц пропущен
+[ok] funding attached for AIAUSDT: 247 payments
+[data] 40 символов, 912 баров | листингов-событий в окне: 24 | funding-покрытие: 94.7%
+[done] listing_drift: verdict=KILL OOS_Sharpe(med)=-0.623 gross=-0.53 worst=-1.226 DSR=0.0722 PBO=0.5079 trades=116
+[done] listing_reversal: verdict=KILL OOS_Sharpe(med)=-0.274 gross=-0.164 worst=-0.274 DSR=0.1515 PBO=0.5714 trades=106
+=== LISTING DONE in 335.9s. Report: reports/listing0005_smoke.md ===

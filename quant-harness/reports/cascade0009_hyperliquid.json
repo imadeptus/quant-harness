@@ -1,0 +1,57 @@
+{
+  "spec": "0007",
+  "venue": "hyperliquid",
+  "generated_at_utc": "2026-07-22T09:26:10.269956+00:00",
+  "elapsed_sec": 3.4,
+  "n_coins": 230,
+  "result": {
+    "cv": "cpcv",
+    "n_configs_tried": 12,
+    "n_splits": 45,
+    "n_paths": 9,
+    "ann_factor": 365.0,
+    "oos_bars": 912,
+    "approx_oos_trades": 1416,
+    "oos_sharpe_annualized": -0.557,
+    "path_sharpes_annualized": [
+      -0.8,
+      -0.733,
+      -0.134,
+      -1.009,
+      -0.557,
+      0.08,
+      0.396,
+      -0.631,
+      -0.344
+    ],
+    "worst_path_sharpe_annualized": -1.009,
+    "oos_max_drawdown": 0.956,
+    "psr_vs_zero": 0.1922,
+    "deflated_sharpe_ratio": 0.038,
+    "trial_sharpe_variance": 0.00033124561577314697,
+    "thresholds": {
+      "min_trades": 200,
+      "min_oos_sharpe": 0.7,
+      "max_drawdown": 0.2,
+      "min_dsr": 0.95
+    },
+    "checks": {
+      "trades_ok": true,
+      "oos_sharpe_ok": false,
+      "drawdown_ok": false,
+      "dsr_ok": false
+    },
+    "verdict": "KILL",
+    "most_common_pick": {
+      "hold": 3,
+      "k": 3.0,
+      "m": 3.0
+    },
+    "pbo": 0.7897,
+    "avg_shock_events": 2024,
+    "universe_size_mean": 52.84,
+    "direction": -1,
+    "warnings": [],
+    "gross_oos_sharpe": -0.263
+  }
+}

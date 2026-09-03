@@ -1,0 +1,6 @@
+[pool] 15 перпов Hyperliquid
+[data] 15 монет с данными, 912 баров
+[universe] mean=8.1 max=12 | member-баров funding=0: 0.4%
+[done] xs_carry: verdict=KILL OOS_Sharpe(med)=0.481 worst=0.169 DSR=0.4403 PBO=0.2778 trades=403
+[done] xs_momentum: verdict=KILL OOS_Sharpe(med)=-0.7 worst=-1.483 DSR=0.0069 PBO=0.7817 trades=461
+=== HL DONE in 579.4s. Report: reports/hl_smoke.md ===

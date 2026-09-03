@@ -1,0 +1,28 @@
+/Users/art/quant-ai-lab/quant-harness/run_overnight.py:123: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at_utc": datetime.utcnow().isoformat() + "Z",
+[ok] funding attached for BTCUSDT: 2190 payments
+[data] BTCUSDT: 17520 bars 2024-07-01 00:00:00+00:00..2026-06-30 23:00:00+00:00
+[done] BTCUSDT/momentum: verdict=KILL OOS_Sharpe=-0.408 DSR=0.0001 PBO=0.0595
+[done] BTCUSDT/mean_reversion: verdict=KILL OOS_Sharpe=-0.448 DSR=0.0 PBO=0.0675
+[done] BTCUSDT/breakout: verdict=KILL OOS_Sharpe=-2.018 DSR=0.0 PBO=0.004
+[done] BTCUSDT/carry: verdict=KILL OOS_Sharpe=0.2 DSR=0.0003 PBO=0.4286
+[ok] funding attached for ETHUSDT: 2190 payments
+[data] ETHUSDT: 17520 bars 2024-07-01 00:00:00+00:00..2026-06-30 23:00:00+00:00
+[done] ETHUSDT/momentum: verdict=KILL OOS_Sharpe=0.497 DSR=0.0004 PBO=0.2183
+[done] ETHUSDT/mean_reversion: verdict=KILL OOS_Sharpe=-0.814 DSR=0.0 PBO=0.0754
+[done] ETHUSDT/breakout: verdict=KILL OOS_Sharpe=-0.814 DSR=0.0 PBO=0.0794
+[done] ETHUSDT/carry: verdict=KILL OOS_Sharpe=0.849 DSR=0.0005 PBO=0.5516
+[ok] funding attached for SOLUSDT: 2190 payments
+[data] SOLUSDT: 17520 bars 2024-07-01 00:00:00+00:00..2026-06-30 23:00:00+00:00
+[done] SOLUSDT/momentum: verdict=KILL OOS_Sharpe=-0.526 DSR=0.0004 PBO=0.3333
+[done] SOLUSDT/mean_reversion: verdict=KILL OOS_Sharpe=-0.465 DSR=0.0 PBO=0.0794
+[done] SOLUSDT/breakout: verdict=KILL OOS_Sharpe=-3.612 DSR=0.0 PBO=0.5079
+[done] SOLUSDT/carry: verdict=KILL OOS_Sharpe=-0.888 DSR=0.0002 PBO=0.254
+[ok] funding attached for BNBUSDT: 751 payments
+[data] BNBUSDT: 17520 bars 2024-07-01 00:00:00+00:00..2026-06-30 23:00:00+00:00
+[done] BNBUSDT/momentum: verdict=KILL OOS_Sharpe=-0.778 DSR=0.0 PBO=0.3333
+[done] BNBUSDT/mean_reversion: verdict=KILL OOS_Sharpe=-1.243 DSR=0.0 PBO=0.0833
+[done] BNBUSDT/breakout: verdict=KILL OOS_Sharpe=-1.622 DSR=0.0 PBO=0.0317
+[done] BNBUSDT/carry: verdict=KILL OOS_Sharpe=0.188 DSR=0.0005 PBO=0.3016
+
+=== SWEEP DONE in 123s. 0 PASS / 16 cells. Report: reports/overnight_report.md ===

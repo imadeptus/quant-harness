@@ -1,0 +1,7 @@
+[data] hyperliquid: 230 монет, 912 баров
+[yield] hyperliquid: ann 11.8% | Sharpe(иллюз) 9.5 | data-MDD -1.3% | avg позиций 31
+  стресс basis_1pct: разовый убыток 1% = 1.0 мес доходности
+  стресс basis_3pct: разовый убыток 3% = 3.1 мес доходности
+  стресс basis_5pct: разовый убыток 5% = 5.1 мес доходности
+  funding-flip 30д: -0.60%
+=== HARVEST hyperliquid DONE in 1.8s. reports/harvest0008_hyperliquid.json ===

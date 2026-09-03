@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Daily paper tick for the funding-harvest research track.
+
+  Why launchd instead of cron: cron silently skips a run while the Mac is
+  asleep; launchd fires a missed StartCalendarInterval job as soon as the
+  machine wakes up. run_paper.py itself refuses to double-tick within 20h, so
+  cron and launchd may overlap safely during the migration.
+
+  Install with ops/install-paper-launchd.sh (idempotent). Do not edit the copy
+  in ~/Library/LaunchAgents by hand - edit this file and re-run the installer.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.quant-ai-lab.paper</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/art/quant-ai-lab/quant-harness/.venv/bin/python</string>
+        <string>run_paper.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/art/quant-ai-lab/quant-harness</string>
+
+    <!-- 09:00 local time, every day. Missed while asleep -> runs on wake. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- launchd appends; stdout and stderr share the same file as under cron. -->
+    <key>StandardOutPath</key>
+    <string>/Users/art/quant-ai-lab/quant-harness/reports/paper.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/art/quant-ai-lab/quant-harness/reports/paper.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <!-- Keep log lines ordered when stdout and stderr share a file. -->
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
+        <!-- Optional overrides (comma-separated), see docs/OPS-PAPER-TRACKER.md:
+        <key>BINANCE_SPOT_HOSTS</key>
+        <string>api.binance.com,data-api.binance.vision</string>
+        <key>HL_INFO_URLS</key>
+        <string>https://api.hyperliquid.xyz/info</string>
+        -->
+    </dict>
+
+    <!-- A network-bound script; do not let launchd throttle it as a daemon. -->
+    <key>ProcessType</key>
+    <string>Background</string>
+</dict>
+</plist>

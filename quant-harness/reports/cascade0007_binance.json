@@ -1,0 +1,55 @@
+{
+  "spec": "0007",
+  "venue": "binance",
+  "generated_at_utc": "2026-07-21T17:57:36.298959+00:00",
+  "elapsed_sec": 9375.8,
+  "n_coins": 768,
+  "result": {
+    "cv": "cpcv",
+    "n_configs_tried": 12,
+    "n_splits": 45,
+    "n_paths": 9,
+    "ann_factor": 365.0,
+    "oos_bars": 730,
+    "approx_oos_trades": 751,
+    "oos_sharpe_annualized": -0.463,
+    "path_sharpes_annualized": [
+      -0.463,
+      -0.463,
+      -0.463,
+      -0.463,
+      -0.463,
+      -0.463,
+      -0.657,
+      -1.034,
+      -0.463
+    ],
+    "worst_path_sharpe_annualized": -1.034,
+    "oos_max_drawdown": 1.021,
+    "psr_vs_zero": 0.2484,
+    "deflated_sharpe_ratio": 0.0401,
+    "trial_sharpe_variance": 0.0005264006625204523,
+    "thresholds": {
+      "min_trades": 200,
+      "min_oos_sharpe": 0.7,
+      "max_drawdown": 0.2,
+      "min_dsr": 0.95
+    },
+    "checks": {
+      "trades_ok": true,
+      "oos_sharpe_ok": false,
+      "drawdown_ok": false,
+      "dsr_ok": false
+    },
+    "verdict": "KILL",
+    "most_common_pick": {
+      "hold": 7,
+      "k": 3.0,
+      "m": 3.0
+    },
+    "pbo": 0.2262,
+    "avg_shock_events": 1273,
+    "universe_size_mean": 57.45,
+    "warnings": []
+  }
+}

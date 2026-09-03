@@ -1,0 +1,41 @@
+{
+  "spec": "0008",
+  "venue": "hyperliquid",
+  "generated_at_utc": "2026-07-22T07:52:43.464117+00:00",
+  "elapsed_sec": 1.8,
+  "theta": 0.0002,
+  "costs": {
+    "taker": 0.0005,
+    "slip": 0.0002
+  },
+  "annualized_yield": 0.1183,
+  "sharpe_illusory": 9.47,
+  "max_drawdown_from_data": -0.0133,
+  "avg_positions": 31.3,
+  "avg_turnover": 0.115,
+  "stress": {
+    "basis_1pct": {
+      "gap": 0.01,
+      "stress_loss": 0.01,
+      "days_of_yield_lost": 30.86,
+      "months_of_yield_lost": 1.03
+    },
+    "basis_3pct": {
+      "gap": 0.03,
+      "stress_loss": 0.03,
+      "days_of_yield_lost": 92.57,
+      "months_of_yield_lost": 3.09
+    },
+    "basis_5pct": {
+      "gap": 0.05,
+      "stress_loss": 0.05,
+      "days_of_yield_lost": 154.28,
+      "months_of_yield_lost": 5.14
+    }
+  },
+  "funding_flip_30d": {
+    "flip_rate": -0.0002,
+    "days": 30,
+    "flip_loss": -0.006
+  }
+}

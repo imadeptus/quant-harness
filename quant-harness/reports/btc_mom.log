@@ -1,0 +1,31 @@
+[ok] funding attached for BTCUSDT: 2190 payments
+{
+  "n_configs_tried": 84,
+  "n_folds": 54,
+  "ann_factor": 8760.0,
+  "oos_bars": 16200,
+  "approx_oos_trades": 625,
+  "oos_sharpe_annualized": 0.328,
+  "oos_max_drawdown": 0.415,
+  "psr_vs_zero": 0.6725,
+  "deflated_sharpe_ratio": 0.0,
+  "thresholds": {
+    "min_trades": 200,
+    "min_oos_sharpe": 0.7,
+    "max_drawdown": 0.2,
+    "min_dsr": 0.95
+  },
+  "checks": {
+    "trades_ok": true,
+    "oos_sharpe_ok": false,
+    "drawdown_ok": false,
+    "dsr_ok": false
+  },
+  "verdict": "KILL",
+  "most_common_pick": {
+    "allow_short": true,
+    "family": "momentum",
+    "lookback": 336,
+    "threshold": 0.02
+  }
+}

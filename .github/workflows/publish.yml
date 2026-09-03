@@ -1,0 +1,65 @@
+name: Publish to PyPI
+
+# Builds the quant-harness sdist/wheel and publishes them to PyPI using PyPI
+# Trusted Publishing (OIDC) — no API token/secret is stored in this repo.
+# Configure the trusted publisher on PyPI first: see PUBLISH-CHECKLIST.md.
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch: {}
+
+# Read-only token by default; only the publish job requests the OIDC id-token.
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: quant-harness
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build tooling
+        run: python -m pip install --upgrade build twine
+
+      - name: Build sdist and wheel
+        run: python -m build
+
+      - name: Check distributions
+        run: python -m twine check dist/*
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: quant-harness/dist/
+
+  publish:
+    needs: build
+    # A manual run from a branch builds and checks only; PyPI uploads come from v* tags.
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      contents: read
+      id-token: write # required for PyPI Trusted Publishing (OIDC)
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/

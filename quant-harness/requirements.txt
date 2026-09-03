@@ -1,0 +1,11 @@
+# Required
+numpy
+scipy
+pandas
+requests
+# Optional (speed / storage) — harness runs on pandas alone without these
+vectorbt
+duckdb
+pyarrow
+ccxt
+pytest

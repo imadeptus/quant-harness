@@ -1,0 +1,111 @@
+{
+  "spec": "0006",
+  "venue": "hyperliquid",
+  "generated_at_utc": "2026-07-21T12:10:16.636909+00:00",
+  "elapsed_sec": 579.4,
+  "pool_size": 15,
+  "universe_size_mean": 8.13,
+  "start": "2024-01",
+  "end": "2026-07",
+  "member_bars_funding_zero_share": 0.0042,
+  "band": "ranks 4-40",
+  "min_median_qv": 1000000.0,
+  "slippage": 0.001,
+  "families": [
+    {
+      "cv": "cpcv",
+      "n_configs_tried": 12,
+      "n_splits": 45,
+      "n_paths": 9,
+      "ann_factor": 365.0,
+      "oos_bars": 912,
+      "approx_oos_trades": 403,
+      "oos_sharpe_annualized": 0.481,
+      "path_sharpes_annualized": [
+        0.169,
+        0.169,
+        0.719,
+        0.768,
+        0.768,
+        0.431,
+        0.43,
+        0.768,
+        0.481
+      ],
+      "worst_path_sharpe_annualized": 0.169,
+      "oos_max_drawdown": 0.374,
+      "psr_vs_zero": 0.7766,
+      "deflated_sharpe_ratio": 0.4403,
+      "trial_sharpe_variance": 0.00032745430174602327,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "family": "xs_carry",
+        "quantile": 0.2,
+        "rebalance": 7,
+        "window": 14
+      },
+      "family": "xs_carry",
+      "pbo": 0.2778
+    },
+    {
+      "cv": "cpcv",
+      "n_configs_tried": 12,
+      "n_splits": 45,
+      "n_paths": 9,
+      "ann_factor": 365.0,
+      "oos_bars": 912,
+      "approx_oos_trades": 461,
+      "oos_sharpe_annualized": -0.7,
+      "path_sharpes_annualized": [
+        -1.483,
+        -1.351,
+        -0.449,
+        -0.7,
+        -0.255,
+        -0.826,
+        -0.643,
+        -0.868,
+        -0.69
+      ],
+      "worst_path_sharpe_annualized": -1.483,
+      "oos_max_drawdown": 0.662,
+      "psr_vs_zero": 0.1346,
+      "deflated_sharpe_ratio": 0.0069,
+      "trial_sharpe_variance": 0.0007287750954652109,
+      "thresholds": {
+        "min_trades": 200,
+        "min_oos_sharpe": 0.7,
+        "max_drawdown": 0.2,
+        "min_dsr": 0.95
+      },
+      "checks": {
+        "trades_ok": true,
+        "oos_sharpe_ok": false,
+        "drawdown_ok": false,
+        "dsr_ok": false
+      },
+      "verdict": "KILL",
+      "most_common_pick": {
+        "family": "xs_momentum",
+        "lookback": 7,
+        "quantile": 0.2,
+        "rebalance": 7,
+        "skip": 1
+      },
+      "family": "xs_momentum",
+      "pbo": 0.7817
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-harness"
+version = "0.3.0"
+description = "An honest backtest harness — leakage-safe walk-forward / CPCV, realistic costs, Deflated Sharpe, PBO, and a mechanical PASS/KILL verdict you cannot talk your way past."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "quant-ai-lab" }]
+keywords = ["backtesting", "quant", "walk-forward", "deflated-sharpe",
+            "overfitting", "cpcv", "trading", "crypto"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "requests>=2.28",
+]
+
+[project.optional-dependencies]
+fast = ["pyarrow>=12"]          # parquet cache for downloaded klines
+exchange = ["ccxt>=4"]          # extra venue loaders
+# Hosted verdict API (api/): FastAPI service around harness.audit.audit_returns.
+api = ["fastapi>=0.110", "uvicorn[standard]>=0.29", "pydantic>=2"]
+# httpx: fastapi.testclient for tests/test_api.py (those tests skip without the api extra).
+dev = ["pytest>=7", "httpx>=0.27"]
+
+[project.scripts]
+# General, self-contained CLI: Deflated / Probabilistic Sharpe from a returns CSV.
+qh-dsr = "harness.deflated_sharpe:_cli"
+# Strategy audit: mechanical PASS/KILL verdict on a returns CSV + Markdown/JSON report.
+qh-audit = "harness.audit:_cli"
+
+# TODO(publish): quant-ai-lab/quant-harness does not exist on GitHub yet (404 as of
+# this release). These URLs are placeholders — verify/replace them once publish.sh
+# has created the public repo (see PUBLISH-CHECKLIST.md step "PyPI trusted publisher").
+[project.urls]
+Homepage = "https://github.com/imadeptus/quant-harness#readme"
+Documentation = "https://github.com/imadeptus/quant-harness#readme"
+Repository = "https://github.com/imadeptus/quant-harness"
+Changelog = "https://github.com/imadeptus/quant-harness/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["harness"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

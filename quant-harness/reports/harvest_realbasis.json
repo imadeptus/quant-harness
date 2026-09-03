@@ -1,0 +1,54 @@
+{
+  "generated_at_utc": "2026-07-22T17:07:05.539019+00:00",
+  "elapsed_sec": 4.7,
+  "hedgeable_coins": 164,
+  "assumed_yield_pct": 9.6,
+  "real_basis_yield_pct": 9.85,
+  "basis_drag_pct": -0.25,
+  "real_sharpe": 6.61,
+  "real_max_drawdown_pct": -2.37,
+  "avg_positions": 27.3,
+  "worst_5_net_coins": {
+    "CHIP": 0.0,
+    "SCR": 0.0,
+    "USTC": 0.0,
+    "CYBER": 0.0,
+    "CELO": 0.0
+  },
+  "best_5_net_coins": {
+    "DOGE": 0.4309,
+    "kBONK": 0.4362,
+    "LDO": 0.4845,
+    "WIF": 0.5314,
+    "kPEPE": 0.5607
+  },
+  "n_coins_net_negative": 0,
+  "n_coins_net_positive": 113,
+  "stress_archaeology": [
+    {
+      "date": "2025-10-10",
+      "port_move": -23.9,
+      "harvest_ret": 0.068
+    },
+    {
+      "date": "2026-02-05",
+      "port_move": -17.2,
+      "harvest_ret": 0.05
+    },
+    {
+      "date": "2025-03-03",
+      "port_move": -16.8,
+      "harvest_ret": 0.071
+    },
+    {
+      "date": "2024-04-12",
+      "port_move": -15.6,
+      "harvest_ret": 0.09
+    },
+    {
+      "date": "2024-12-09",
+      "port_move": -14.7,
+      "harvest_ret": 0.096
+    }
+  ]
+}

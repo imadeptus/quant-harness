@@ -1,0 +1,33 @@
+[pool] 30 перпов из S3-листинга (кэш)
+[ok] funding attached for 0GUSDT: 287 payments
+[ok] funding attached for 1000000BOBUSDT: 391 payments
+[ok] funding attached for 1000000MOGUSDT: 601 payments
+[ok] funding attached for 1000CATUSDT: 618 payments
+[ok] funding attached for 1000CHEEMSUSDT: 583 payments
+[ok] funding attached for 1000FLOKIUSDT: 912 payments
+[ok] funding attached for 1000LUNCUSDT: 912 payments
+[ok] funding attached for 1000PEPEUSDT: 912 payments
+[ok] funding attached for 1000RATSUSDT: 912 payments
+[ok] funding attached for 1000SATSUSDT: 912 payments
+[ok] funding attached for 1000SHIBUSDT: 912 payments
+[ok] funding attached for 1000WHYUSDT: 478 payments
+[ok] funding attached for 1000XECUSDT: 912 payments
+[ok] funding attached for 1000XUSDT: 367 payments
+[ok] funding attached for 1INCHUSDT: 912 payments
+[ok] funding attached for 1MBABYDOGEUSDT: 653 payments
+[ok] funding attached for 2ZUSDT: 272 payments
+[ok] funding attached for 42USDT: 96 payments
+[ok] funding attached for 4USDT: 266 payments
+[ok] funding attached for A2ZUSDT: 238 payments
+[ok] funding attached for AAOIUSDT: 18 payments
+[ok] funding attached for AAPLUSDT: 35 payments
+[ok] funding attached for AAVEUSDT: 912 payments
+[ok] funding attached for ACEUSDT: 912 payments
+[ok] funding attached for ACHUSDT: 912 payments
+[ok] funding attached for ACTUSDT: 597 payments
+[ok] funding attached for ACUUSDT: 161 payments
+[ok] funding attached for ACXUSDT: 572 payments
+[data] 29 символов, 912 баров | листингов-событий в окне: 17 | funding-покрытие: 91.3%
+[done] listing_drift: verdict=KILL OOS_Sharpe(med)=-0.367 worst=-0.43 DSR=0.1015 PBO=0.5159 trades=677
+[done] listing_reversal: verdict=KILL OOS_Sharpe(med)=0.218 worst=-0.098 DSR=0.3422 PBO=0.3611 trades=585
+=== LISTING DONE in 393.7s. Report: reports/listing_smoke.md ===
