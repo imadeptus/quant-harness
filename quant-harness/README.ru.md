@@ -73,10 +73,10 @@ PASS/KILL, который не подкручивали после того, к�
 
 ## Установка
 
-Без клона — wheel раздаётся из GitHub Releases через собственный pip-индекс проекта на GitHub Pages (PEP 503):
+С PyPI (собственный PEP 503 индекс на GitHub Pages, https://imadeptus.github.io/quant-harness/simple/, зеркалит те же wheel):
 
 ```bash
-pip install --extra-index-url https://imadeptus.github.io/quant-harness/simple/ quant-harness
+pip install quant-harness
 ```
 
 Из клона (разработка):

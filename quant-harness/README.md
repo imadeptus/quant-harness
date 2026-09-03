@@ -78,10 +78,10 @@ methodology (the seven ways a backtest lies, and the defence against each):
 
 ## Install
 
-No clone needed — the wheel is served from GitHub Releases through the project's own pip index on GitHub Pages (PEP 503):
+From PyPI (the project's own PEP 503 index on GitHub Pages, https://imadeptus.github.io/quant-harness/simple/, mirrors the same wheels):
 
 ```bash
-pip install --extra-index-url https://imadeptus.github.io/quant-harness/simple/ quant-harness
+pip install quant-harness
 ```
 
 From a clone (development):
