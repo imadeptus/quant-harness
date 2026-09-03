@@ -27,7 +27,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
       - name: Install (editable, with dev + api extras)
-        run: pip install -e ".[dev,api]"
+        run: pip install -e ".[dev,api,fast]"
       - name: Run tests
         run: python -m pytest
       - name: Quickstart example must run (no data)

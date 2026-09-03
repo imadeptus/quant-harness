@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+quant-harness/data_cache/
+quant-harness/reports/paper_state.json
+quant-harness/reports/paper.log
+# packaging build artifacts
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# secrets: never commit env files (api/.env.example is the committed template)
+.env
+*.env
+!*.env.example
+# paper-tracker run lock
+quant-harness/reports/*.lock
