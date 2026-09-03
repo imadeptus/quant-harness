@@ -1,4 +1,4 @@
-# quant-harness verdict API
+# quant-harness verdict API (`harness.service`)
 
 **Upload returns, get a calibrated verdict.** A thin HTTP layer over
 `harness.audit.audit_returns` — the exact function behind the `qh-audit` CLI:
@@ -6,6 +6,10 @@ Combinatorial Purged CV, Deflated Sharpe Ratio, PBO, four pre-registered gates,
 one mechanical `PASS | KILL`. The HTTP verdict cannot drift from the CLI verdict
 (`tests/test_api.py::test_verdict_matches_audit_returns`). Built for AI agents
 and humans alike.
+
+Since 0.3.1 the service ships inside the package as `harness.service`
+(`pip install "quant-harness[api]"`); the `api/*.py` files in this directory are
+compatibility shims that re-export it.
 
 The judge behind this endpoint is measured, not assumed: on synthetic data with
 known ground truth it PASSes **0.0 % of pure noise at N >= 6 configs** and crosses
@@ -23,10 +27,15 @@ about 2.2 by interpolation** (>= 90 % at about 3.0). See `../reports/CALIBRATION
 cd quant-harness
 python -m venv .venv && . .venv/bin/activate
 pip install -e ".[api]"          # fastapi, uvicorn, pydantic  (add `dev` for the tests)
-uvicorn api.app:app --host 0.0.0.0 --port 8000 --no-access-log    # or: make api
+uvicorn harness.service.app:app --host 0.0.0.0 --port 8000 --no-access-log    # or: make api
 ```
 
 Interactive docs: `http://localhost:8000/docs`. Health: `GET /healthz`.
+`uvicorn api.app:app` (the 0.3.0 entry) still works through the shim.
+
+To serve under a prefix — the product mounts the judge at `/api/judge` — set
+`QH_ROOT_PATH=/api/judge`: `/api/judge/healthz` and `/healthz` both answer, the
+gates apply either way, and `/api/judge/docs` is the interactive docs.
 
 ## Docker
 
@@ -36,8 +45,38 @@ docker run --rm -p 8000:8000 --env-file api/.env.example qh-api:dev
 ```
 
 Multi-stage image, non-root user (`app`, uid 10001), `HEALTHCHECK` on
-`/healthz`, `PORT` env (default 8000). uvicorn handles `SIGTERM` for a graceful
-shutdown; logs are JSON lines on stdout (nothing is written to disk).
+`/healthz`, `PORT` env (default 8000). The image runs `harness.service.app:app`
+from the installed package (nothing from `api/` is copied in). uvicorn handles
+`SIGTERM` for a graceful shutdown; logs are JSON lines on stdout (nothing is
+written to disk).
+
+## Vercel (Python function)
+
+The same app runs as one Vercel Python function mounted at `/api/judge`, next to
+a Next.js front end. The whole entry is:
+
+```python
+# api/judge/index.py
+from harness.service.vercel import create_vercel_app
+app = create_vercel_app()          # `app` is the name the Vercel runtime loads
+```
+
+```text
+# requirements.txt (project root)
+quant-harness==0.3.1
+fastapi>=0.110
+pydantic>=2
+```
+
+with `vercel.json` rewriting `/api/judge/:path*` to the function.
+`create_vercel_app()` builds `Settings` from the environment with
+`QH_ROOT_PATH` defaulting to `/api/judge`, bridges the front end's variable
+names when the `QH_*` ones are unset (`JUDGE_INTERNAL_SECRET` ->
+`QH_INTERNAL_SECRET`, `MAX_CONFIGS` / `MAX_PERIODS` / `MAX_BODY_MB` ->
+`QH_MAX_CONFIGS` / `QH_MAX_PERIODS` / `QH_MAX_BODY_BYTES`, `APP_URL` ->
+`QH_PUBLIC_URL`), and refuses to start under `VERCEL_ENV=production` without an
+internal secret — an open judge would be callable by anyone at
+`/api/judge/v1/verdict`. Check a deployment with `GET /api/judge/healthz`.
 
 ## Endpoints
 
@@ -88,7 +127,8 @@ one trade every 3 bars, `costs_bps: 5.0`:
     "oos_sharpe_annualized": -0.169, "worst_path_sharpe_annualized": -0.983,
     "oos_max_drawdown": 0.215, "psr_vs_zero": 0.4144, "deflated_sharpe_ratio": 0.0551,
     "pbo": 0.4286, "n_paths": 9, "n_configs_tried": 6, "oos_bars": 600,
-    "approx_oos_trades": 200, "ann_factor": 365.0
+    "approx_oos_trades": 200, "ann_factor": 365.0,
+    "path_sharpes_annualized": [-0.983, -0.61, -0.402, -0.21, -0.169, 0.014, 0.12, 0.33, 0.52]
   },
   "thresholds": {"min_trades": 200.0, "min_oos_sharpe": 0.7, "max_drawdown": 0.2, "min_dsr": 0.95},
   "cpcv": {"n_groups": 10, "k_test": 2, "purge": 1, "embargo": 5},
@@ -110,6 +150,9 @@ one trade every 3 bars, `costs_bps: 5.0`:
 
 - `verdict` is `PASS` only when all four `checks` are true; `metrics.n_configs_tried`
   is the number the DSR was deflated by (`max(n_trials, rows)`).
+- `metrics.path_sharpes_annualized` lists the annualized OOS Sharpe of every CPCV
+  path (`n_paths` values; the median is `oos_sharpe_annualized`, the minimum
+  `worst_path_sharpe_annualized`) so a client can plot the distribution.
 - `assumptions` lists everything the judge had to assume (an `ASSUMPTION:` line
   when `trades` was omitted, `WARNING:` lines from the audit, the cost and
   annualization conventions).
@@ -125,16 +168,16 @@ one trade every 3 bars, `costs_bps: 5.0`:
 
 | Status | When |
 |---|---|
-| `401` | `QH_API_KEYS` is set and `X-API-Key` is missing or wrong |
+| `401` | `QH_INTERNAL_SECRET` is set and `X-Internal-Secret` is missing or wrong (every path except `/healthz`), or `QH_API_KEYS` is set and `X-API-Key` is missing or wrong |
 | `402` | a payment gate is configured and its header is absent (see below) |
 | `413` | more than `QH_MAX_CONFIGS` rows, more than `QH_MAX_PERIODS` bars, or a body over `QH_MAX_BODY_BYTES` |
 | `422` | ragged matrix, NaN/inf, fewer than 100 periods, `trades` shape mismatch or negative, unsupported `freq` (calendar months/quarters/years, or a spacing above one year), `n_trials` below the rows uploaded or above 1 000 000, negative `assume_trades_per_bar`, a zero-variance series (also after costs), CPCV `n_groups` leaving fewer than 3 periods per group, or `purge`/`embargo` leaving a CPCV train set under 3 periods |
 
 Every error body has `detail` (structured) and `error` (one readable string).
-The request body is never echoed back. Order of checks: `413` from
-`Content-Length`, then `401` and `402` from the headers alone — the body is not
-read, let alone parsed, before auth and payment are settled — then `422`/`413`
-on the parsed body, then the judge.
+The request body is never echoed back. Order of checks: `401` for the internal
+secret, `413` from `Content-Length`, then `401` (API key) and `402` — all from
+the headers alone; the body is not read, let alone parsed, before auth and
+payment are settled — then `422`/`413` on the parsed body, then the judge.
 
 ### curl
 
@@ -158,6 +201,7 @@ curl -s -X POST http://localhost:8000/v1/verdict \
 | `QH_MAX_CONFIGS` | `200` | max rows per request (413 above) |
 | `QH_MAX_PERIODS` | `50000` | max bars per row (413 above) |
 | `QH_MAX_BODY_BYTES` | `67108864` (64 MiB) | raw body cap, checked before parsing (413 above) |
+| `QH_INTERNAL_SECRET` | *(empty = off)* | shared secret for a trusted caller (the product's Node layer). When set, every request except `GET /healthz` must send `X-Internal-Secret` with this value (constant-time compared) or gets `401` before the body is read. Never logged |
 | `QH_API_KEYS` | *(empty = open)* | comma-separated accepted `X-API-Key` values. Empty means anyone can call the judge: the app has no rate limit and no concurrency cap, so never expose an open instance without a reverse proxy that rate-limits |
 | `QH_PAYMENT_GATE` | `noop` | `noop` \| `x402` \| `nowpayments` |
 | `QH_ALLOW_STUB_PAYMENT_GATE` | *(unset)* | must be `1` to start `x402`/`nowpayments` at all — both are stubs that never verify payment |
@@ -167,6 +211,7 @@ curl -s -X POST http://localhost:8000/v1/verdict \
 | `QH_X402_ASSET` | `USDC` | asset quoted in the challenge (set the token contract for mainnet) |
 | `NOWPAYMENTS_API_KEY` | — | required for `nowpayments`; never logged |
 | `QH_NOWPAYMENTS_PRICE_USDC` | — | price quoted in the NOWPayments 402 instructions |
+| `QH_ROOT_PATH` | *(empty = origin root)* | mount prefix the app is served under (`/api/judge` on Vercel). Requests are routed with the prefix stripped and still work without it; `/docs` and `openapi.json` move under the prefix; the request log gains a `root_path` field |
 | `QH_PUBLIC_URL` | `http://localhost:8000` | used as the x402 `resource` URL |
 | `QH_LOG_LEVEL` | `INFO` | log level of the JSON request log |
 | `PORT` | `8000` | Docker only |
@@ -206,19 +251,24 @@ Do not put a stub gate in front of anything you charge for.
 | `x402` | Without `X-PAYMENT`: `402` with an x402-style body — `x402Version`, `accepts[{scheme: "exact", network, maxAmountRequired (USDC atomic units), resource, payTo, asset, description, ...}]`. With the header: pass-through, unverified. | Forward the `X-PAYMENT` payload to an **x402 facilitator** (`POST /verify`, then `POST /settle` after serving), reject on failure, set `QH_X402_NETWORK` to a mainnet and `QH_X402_ASSET` to the USDC contract on it, return the `X-PAYMENT-RESPONSE` header, and handle replay (nonce/idempotency) and timeouts. |
 | `nowpayments` | Without `X-Payment-Id`: `402` with instructions to create a NOWPayments payment and retry with the id. With the header: pass-through, unverified. | Either look the id up with `GET /v1/payment/{id}` (API key) and require `payment_status == "finished"` for the *expected amount*, or receive the signed **IPN callback**, verify its HMAC with the IPN secret, and store paid ids so each one buys exactly one call. |
 
-Code pointers: `api/payments.py` (each stub is marked `TODO(stub)`),
-`api/settings.py` (env parsing), `api/app.py` (`AuthGateMiddleware`).
+Code pointers: `harness/service/payments.py` (each stub is marked `TODO(stub)`),
+`harness/service/settings.py` (env parsing), `harness/service/app.py`
+(`AuthGateMiddleware`, `InternalSecretMiddleware`).
 
 ## Layout
 
 ```
-api/
-  app.py        FastAPI factory, middleware (auth/payment gate, body limit, JSON request log), endpoints
+harness/service/          the installable service package (pip install "quant-harness[api]")
+  app.py        FastAPI factory, middleware (internal secret, body limit, auth/payment gate,
+                JSON request log), endpoints; `app` = create_app(Settings.from_env())
   models.py     pydantic schemas + validation (shapes, NaN/inf, freq, limits on CPCV)
   payments.py   PaymentGate protocol, NoopGate, X402Gate (stub), NowPaymentsGate (stub)
   report.py     report_md renderer + disclaimer
-  settings.py   Settings dataclass, Settings.from_env()
+  settings.py   Settings dataclass, Settings.from_env(), QH_ROOT_PATH normalisation
   logs.py       JSON stdout logging (stdlib only)
-tests/test_api.py
+  vercel.py     create_vercel_app() / vercel_settings(): the Vercel function entry
+api/            compatibility shims (app, models, payments, report, settings, logs) + this README
+tests/test_api.py      HTTP contract (runs against harness.service)
+tests/test_service.py  internal secret, root path, shims, Vercel entry
 Dockerfile, .dockerignore
 ```

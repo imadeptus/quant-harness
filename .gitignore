@@ -16,3 +16,10 @@ dist/
 !*.env.example
 # paper-tracker run lock
 quant-harness/reports/*.lock
+web/node_modules/
+web/.next/
+web/.vercel/
+web/.env*
+!web/.env.example
+web/.agents/
+web/.claude/

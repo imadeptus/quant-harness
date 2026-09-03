@@ -5,6 +5,47 @@ All notable changes to `quant-harness` are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.1] — 2026-09-03
+
+Service package, internal-secret auth, Vercel function entry.
+
+### Added
+- `metrics.path_sharpes_annualized` in the verdict response: the annualized OOS
+  Sharpe of every CPCV path (`n_paths` values), so clients can plot the
+  distribution instead of only the median / worst path.
+- `harness.service` — the hosted verdict API is now part of the installable
+  package (`app`, `models`, `payments`, `report`, `settings`, `logs`), so
+  `pip install "quant-harness[api]"` is enough to serve the judge:
+  `uvicorn harness.service.app:app`. Behaviour and the HTTP contract are unchanged
+  (`tests/test_api.py` runs against the package; `tests/test_service.py` covers the
+  additions below).
+- Internal-secret auth: `QH_INTERNAL_SECRET`. When set, every request except
+  `GET /healthz` must carry `X-Internal-Secret` (constant-time compared) or gets a
+  401 from ASGI middleware before the body is read. Composes with the existing
+  `X-API-Key` and payment gates (secret first, then key, then gate); the secret is
+  never logged.
+- Mount prefix: `QH_ROOT_PATH` (default empty). With `QH_ROOT_PATH=/api/judge` the
+  app answers both `/api/judge/healthz` and `/healthz` (ASGI root-path semantics —
+  the prefix is stripped when present), all gates key on the stripped route path,
+  `/docs` and `openapi.json` are served under the prefix, and the request log
+  carries `root_path`.
+- Vercel function entry: `harness.service.vercel.create_vercel_app()` /
+  `vercel_settings()` — `QH_ROOT_PATH` defaults to `/api/judge`, the product's
+  variable names are bridged onto `QH_*` when those are unset
+  (`JUDGE_INTERNAL_SECRET`, `MAX_CONFIGS`, `MAX_PERIODS`, `MAX_BODY_MB`, `APP_URL`),
+  and `VERCEL_ENV=production` without a secret refuses to start. A deployment is
+  the two-line `api/judge/index.py` plus `quant-harness==0.3.1` in
+  `requirements.txt`.
+- `Settings.from_env(mapping)` accepts an explicit mapping instead of `os.environ`.
+
+### Changed
+- `api/*.py` in the source tree are compatibility shims re-exporting
+  `harness.service.*` (`uvicorn api.app:app`, `from api.settings import Settings`
+  keep working). The Dockerfile runs `harness.service.app:app` from the installed
+  package and no longer copies `api/` into the image.
+- `pyproject.toml`: `packages = ["harness", "harness.service"]`; the `api` extra
+  is unchanged (`fastapi`, `uvicorn[standard]`, `pydantic`).
+
 ## [0.3.0] — 2026-09-02
 
 ### Added
@@ -142,4 +183,5 @@ established the calibrated PASS/KILL judge used by every later release.
   funding-harvest result, plus `RESEARCH-CONCLUSION.md` and `HARVEST-PATH-A.md`
   documenting the basis-risk analysis behind it.
 
+[0.3.1]: https://github.com/imadeptus/quant-harness/releases/tag/v0.3.1
 [0.3.0]: https://github.com/imadeptus/quant-harness/releases/tag/v0.3.0

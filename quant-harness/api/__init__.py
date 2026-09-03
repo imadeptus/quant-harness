@@ -1,13 +1,15 @@
-"""Hosted verdict API for quant-harness.
+"""Compatibility shims for the hosted verdict API.
 
-"Upload returns, get a calibrated verdict": a thin FastAPI layer over
-``harness.runner.run_cpcv_returns`` (CPCV + Deflated Sharpe + PBO + mechanical
-PASS/KILL). Built for AI agents and humans alike; per-call payment hooks are
-STUBS — see ``api/README.md``.
+Since 0.3.1 the service lives inside the installable package as
+``harness.service`` (app, models, payments, report, settings, logs, and the
+Vercel entry ``harness.service.vercel``). The modules in this directory only
+re-export it so that ``uvicorn api.app:app``, the Dockerfile of earlier releases
+and ``from api.settings import Settings`` keep working.
 
 Entry points:
-    api.app:app            module-level ASGI app (configured from the env)
-    api.app.create_app     factory taking an explicit ``api.settings.Settings``
+    harness.service.app:app                  module-level ASGI app (configured from the env)
+    harness.service.app.create_app           factory taking an explicit ``Settings``
+    harness.service.vercel.create_vercel_app Vercel Python function (web/api/judge/index.py)
 """
 from __future__ import annotations
 

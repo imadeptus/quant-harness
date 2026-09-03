@@ -17,8 +17,8 @@ import pytest
 pytest.importorskip("fastapi", reason="API tests need the `api` extra: pip install -e '.[dev,api]'")
 from fastapi.testclient import TestClient  # noqa: E402
 
-from api.app import create_app  # noqa: E402
-from api.settings import Settings  # noqa: E402
+from harness.service.app import create_app  # noqa: E402
+from harness.service.settings import Settings  # noqa: E402
 from harness.audit import DEFAULT_CPCV, audit_returns  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]

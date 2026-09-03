@@ -55,7 +55,7 @@ from .walk_forward import (CPCVConfig, WalkForwardConfig, assemble_oos, n_folds,
 if TYPE_CHECKING:  # typed names for mypy; at runtime they are resolved lazily below
     from .audit import AuditInputError, audit_returns, render_markdown
 
-__version__ = "0.3.0"   # keep equal to [project].version in pyproject.toml (tests/test_version.py)
+__version__ = "0.3.1"   # keep equal to [project].version in pyproject.toml (tests/test_version.py)
 
 _AUDIT_EXPORTS = ("audit_returns", "render_markdown", "AuditInputError")
 

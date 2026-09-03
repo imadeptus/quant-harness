@@ -25,7 +25,7 @@ audit-example:
 	python examples/audit_quickstart.py
 
 api:
-	python -m uvicorn api.app:app --host 0.0.0.0 --port 8000 --no-access-log
+	python -m uvicorn harness.service.app:app --host 0.0.0.0 --port 8000 --no-access-log
 
 docker:
 	docker build -t qh-api:dev .
