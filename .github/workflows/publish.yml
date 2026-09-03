@@ -1,14 +1,20 @@
 name: Publish to PyPI
 
-# Builds the quant-harness sdist/wheel and publishes them to PyPI using PyPI
-# Trusted Publishing (OIDC) — no API token/secret is stored in this repo.
-# Configure the trusted publisher on PyPI first: see PUBLISH-CHECKLIST.md.
+# Builds the quant-harness sdist/wheel and publishes them to PyPI.
+# Auth: PyPI Trusted Publishing (OIDC) by default; if the repository secret
+# PYPI_API_TOKEN is set, the action uses that token instead (OIDC is skipped).
+# Configure one of the two first: see PUBLISH-CHECKLIST.md.
 
 on:
   push:
     tags:
       - "v*"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Upload to PyPI (otherwise build + check only)"
+        type: boolean
+        default: false
 
 # Read-only token by default; only the publish job requests the OIDC id-token.
 permissions:
@@ -45,8 +51,8 @@ jobs:
 
   publish:
     needs: build
-    # A manual run from a branch builds and checks only; PyPI uploads come from v* tags.
-    if: startsWith(github.ref, 'refs/tags/v')
+    # Uploads come from v* tags, or from a manual run with publish=true.
+    if: startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && inputs.publish)
     runs-on: ubuntu-latest
     environment: pypi
     permissions:
@@ -63,3 +69,5 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           packages-dir: dist/
+          # Empty when the secret is not set -> the action falls back to OIDC.
+          password: ${{ secrets.PYPI_API_TOKEN }}
